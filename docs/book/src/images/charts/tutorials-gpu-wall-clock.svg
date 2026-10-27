@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="331" viewBox="0 0 480 331" role="img" aria-labelledby="t d">
+<title id="t">Wall clock of three stack runs</title><desc id="d">Grouped bars of wall clock in seconds for three runs. Processor: 9.6, 9.7, 10.1. Graphics card: 10.2, 10.2, 10.4.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="330" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Wall clock of three stack runs</text>
+<rect x="16" y="38" width="12" height="12" rx="2" fill="#0072B2"/>
+<text x="34.0" y="49.0" class="ink" text-anchor="start">--backend cpu</text>
+<rect x="143.0" y="38" width="12" height="12" rx="2" fill="#D55E00"/>
+<text x="161.0" y="49.0" class="ink" text-anchor="start">--backend gpu</text>
+<line class="grid" x1="58" x2="468" y1="268.0" y2="268.0"/>
+<text x="52.0" y="272.0" class="sub" text-anchor="end" style="font-size:11px">0</text>
+<line class="grid" x1="58" x2="468" y1="236.3" y2="236.3"/>
+<text x="52.0" y="240.3" class="sub" text-anchor="end" style="font-size:11px">2</text>
+<line class="grid" x1="58" x2="468" y1="204.7" y2="204.7"/>
+<text x="52.0" y="208.7" class="sub" text-anchor="end" style="font-size:11px">4</text>
+<line class="grid" x1="58" x2="468" y1="173.0" y2="173.0"/>
+<text x="52.0" y="177.0" class="sub" text-anchor="end" style="font-size:11px">6</text>
+<line class="grid" x1="58" x2="468" y1="141.3" y2="141.3"/>
+<text x="52.0" y="145.3" class="sub" text-anchor="end" style="font-size:11px">8</text>
+<line class="grid" x1="58" x2="468" y1="109.7" y2="109.7"/>
+<text x="52.0" y="113.7" class="sub" text-anchor="end" style="font-size:11px">10</text>
+<line class="grid" x1="58" x2="468" y1="78.0" y2="78.0"/>
+<text x="52.0" y="82.0" class="sub" text-anchor="end" style="font-size:11px">12</text>
+<rect x="92.3" y="116.0" width="33.0" height="152.0" fill="#0072B2"/>
+<text x="108.8" y="113.0" class="sub" text-anchor="middle" style="font-size:11px">9.6</text>
+<rect x="126.3" y="106.5" width="33.0" height="161.5" fill="#D55E00"/>
+<text x="142.8" y="103.5" class="sub" text-anchor="middle" style="font-size:11px">10.2</text>
+<text x="126.3" y="284.0" class="ink" text-anchor="middle">Run 1</text>
+<rect x="229.0" y="114.4" width="33.0" height="153.6" fill="#0072B2"/>
+<text x="245.5" y="111.4" class="sub" text-anchor="middle" style="font-size:11px">9.7</text>
+<rect x="263.0" y="106.5" width="33.0" height="161.5" fill="#D55E00"/>
+<text x="279.5" y="103.5" class="sub" text-anchor="middle" style="font-size:11px">10.2</text>
+<text x="263.0" y="284.0" class="ink" text-anchor="middle">Run 2</text>
+<rect x="365.7" y="108.1" width="33.0" height="159.9" fill="#0072B2"/>
+<text x="382.2" y="105.1" class="sub" text-anchor="middle" style="font-size:11px">10.1</text>
+<rect x="399.7" y="103.3" width="33.0" height="164.7" fill="#D55E00"/>
+<text x="416.2" y="100.3" class="sub" text-anchor="middle" style="font-size:11px">10.4</text>
+<text x="399.7" y="284.0" class="ink" text-anchor="middle">Run 3</text>
+<line class="axis" x1="58" x2="468" y1="268.0" y2="268.0"/>
+<line class="axis" x1="58" x2="58" y1="78" y2="268"/>
+<text x="240.0" y="309.0" class="sub" text-anchor="middle">Wall clock, seconds (lower is better)</text>
+</svg>

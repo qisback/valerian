@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="309" viewBox="0 0 480 309" role="img" aria-labelledby="t d">
+<title id="t">Noise of one frame against the stack</title><desc id="d">Bars of noise in ADU. Frames 0 to 4: 59.28, 59.31, 59.02, 58.78, 58.92. Stack plane 0: 39.3.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="308" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Noise of one frame against the stack</text>
+<line class="grid" x1="58" x2="468" y1="246.0" y2="246.0"/>
+<text x="52.0" y="250.0" class="sub" text-anchor="end" style="font-size:11px">0</text>
+<line class="grid" x1="58" x2="468" y1="214.3" y2="214.3"/>
+<text x="52.0" y="218.3" class="sub" text-anchor="end" style="font-size:11px">10</text>
+<line class="grid" x1="58" x2="468" y1="182.7" y2="182.7"/>
+<text x="52.0" y="186.7" class="sub" text-anchor="end" style="font-size:11px">20</text>
+<line class="grid" x1="58" x2="468" y1="151.0" y2="151.0"/>
+<text x="52.0" y="155.0" class="sub" text-anchor="end" style="font-size:11px">30</text>
+<line class="grid" x1="58" x2="468" y1="119.3" y2="119.3"/>
+<text x="52.0" y="123.3" class="sub" text-anchor="end" style="font-size:11px">40</text>
+<line class="grid" x1="58" x2="468" y1="87.7" y2="87.7"/>
+<text x="52.0" y="91.7" class="sub" text-anchor="end" style="font-size:11px">50</text>
+<line class="grid" x1="58" x2="468" y1="56.0" y2="56.0"/>
+<text x="52.0" y="60.0" class="sub" text-anchor="end" style="font-size:11px">60</text>
+<rect x="75.2" y="58.3" width="33.0" height="187.7" fill="#0072B2"/>
+<text x="91.7" y="55.3" class="sub" text-anchor="middle" style="font-size:11px">59.28</text>
+<text x="92.2" y="262.0" class="ink" text-anchor="middle">Frame 0</text>
+<rect x="143.5" y="58.2" width="33.0" height="187.8" fill="#0072B2"/>
+<text x="160.0" y="55.2" class="sub" text-anchor="middle" style="font-size:11px">59.31</text>
+<text x="160.5" y="262.0" class="ink" text-anchor="middle">Frame 1</text>
+<rect x="211.8" y="59.1" width="33.0" height="186.9" fill="#0072B2"/>
+<text x="228.3" y="56.1" class="sub" text-anchor="middle" style="font-size:11px">59.02</text>
+<text x="228.8" y="262.0" class="ink" text-anchor="middle">Frame 2</text>
+<rect x="280.2" y="59.9" width="33.0" height="186.1" fill="#0072B2"/>
+<text x="296.7" y="56.9" class="sub" text-anchor="middle" style="font-size:11px">58.78</text>
+<text x="297.2" y="262.0" class="ink" text-anchor="middle">Frame 3</text>
+<rect x="348.5" y="59.4" width="33.0" height="186.6" fill="#0072B2"/>
+<text x="365.0" y="56.4" class="sub" text-anchor="middle" style="font-size:11px">58.92</text>
+<text x="365.5" y="262.0" class="ink" text-anchor="middle">Frame 4</text>
+<rect x="416.8" y="121.6" width="33.0" height="124.4" fill="#0072B2"/>
+<text x="433.3" y="118.6" class="sub" text-anchor="middle" style="font-size:11px">39.30</text>
+<text x="433.8" y="262.0" class="ink" text-anchor="middle">Stack</text>
+<line class="axis" x1="58" x2="468" y1="246.0" y2="246.0"/>
+<line class="axis" x1="58" x2="58" y1="56" y2="246"/>
+<text x="240.0" y="287.0" class="sub" text-anchor="middle">Noise, ADU (lower is cleaner)</text>
+</svg>

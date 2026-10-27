@@ -1,0 +1,31 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Valerian
+Source: https://github.com/qisback/valerian
+
+Files: *
+Copyright: 2026 Laurence Horrocks-Barlow
+License: GPL-3.0-or-later
+ Valerian is free software under the GNU General Public License version 3 or (at
+ your option) any later version, with the additional terms in ADDITIONAL-TERMS.md
+ (section 7 of the GPL). On Debian systems the licence text is in
+ /usr/share/common-licenses/GPL-3, and a copy is in /usr/share/doc/valerian/LICENSE.
+
+Files: usr/share/icons/* usr/share/doc/valerian/LOGO-LICENCE.md
+Copyright: 2026 Laurence Horrocks-Barlow
+License: All-rights-reserved
+ The Valerian logo and icons are not covered by the GPL. See LOGO-LICENCE.md.
+
+Files: usr/share/doc/valerian/THIRD-PARTY-LICENSES.txt
+Copyright: various
+License: see-file
+ The libraries inside the programs, and the IBM Plex fonts (SIL OFL 1.1), keep
+ their own licences. They are listed in THIRD-PARTY-LICENSES.txt.
+
+Files: usr/share/valerian/gaia-dr3-g11.vcat
+Copyright: ESA/Gaia/DPAC (Gaia Data Processing and Analysis Consortium)
+License: CC-BY-NC-3.0-IGO
+ Star positions, G magnitudes and BP-RP colours from Gaia DR3 down to G = 11. ESA
+ distributes Gaia data under CC BY-NC 3.0 IGO: non-commercial use only; commercial use
+ needs ESA authorisation (data.licences@esa.int). The licence text is
+ in /usr/share/doc/valerian/CC-BY-NC-3.0-IGO.txt; the attribution is in
+ THIRD-PARTY-LICENSES.txt.

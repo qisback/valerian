@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-gpu-busy-server",
+ "page": "tutorials/gpu.md",
+ "kind": "bars",
+ "title": "Stack time on a busy server",
+ "caption": "Time of three stack runs on the processor and on the card while the server was busy (load average over 13), from the paragraph below the table.",
+ "alt": "Grouped bars of seconds for three runs on a busy server. Processor: 25.5, 28.5, 27.0. Graphics card: 14.1, 14.6, 16.0.",
+ "categories": [
+  "Run 1",
+  "Run 2",
+  "Run 3"
+ ],
+ "series": [
+  {
+   "name": "Processor",
+   "values": [
+    25.5,
+    28.5,
+    27.0
+   ]
+  },
+  {
+   "name": "Graphics card",
+   "values": [
+    14.1,
+    14.6,
+    16.0
+   ]
+  }
+ ],
+ "value_axis": "Time of the stack, seconds (lower is better)",
+ "dp": 1,
+ "note": "tutorials/gpu.md, paragraph after the table of three runs"
+}

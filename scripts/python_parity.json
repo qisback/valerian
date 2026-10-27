@@ -1,0 +1,223 @@
+{
+ "_about": "Ranges [low, high] for scripts/python_parity.py. Each is the measured value on the staged data (CPU backend) with room to move: tight enough that a real change in Valerian or in the reference shows, loose enough that a better algorithm is a conscious edit here. A number outside its range fails the nightly job. Regenerate a starting point with --update and review it.",
+ "pipeline": {
+  "noise_valerian": [
+   20.0,
+   29.0
+  ],
+  "noise_python": [
+   20.0,
+   29.0
+  ],
+  "diff_rms_over_noise": [
+   0.3,
+   0.6
+  ],
+  "stars_matched": [
+   550,
+   900
+  ],
+  "offset_dx": [
+   -0.05,
+   0.1
+  ],
+  "offset_dy": [
+   -0.14,
+   0.03
+  ],
+  "offset_rms_px": [
+   0.0,
+   0.2
+  ],
+  "flux_ratio_median": [
+   0.95,
+   1.02
+  ],
+  "flux_ratio_scatter": [
+   0.0,
+   0.06
+  ],
+  "fwhm_valerian": [
+   5.5,
+   6.8
+  ],
+  "fwhm_python": [
+   5.5,
+   6.8
+  ],
+  "fwhm_ratio": [
+   0.95,
+   1.05
+  ]
+ },
+ "stretch": {
+  "black": [
+   -45.0,
+   -26.0
+  ],
+  "white": [
+   20000.0,
+   25500.0
+  ],
+  "midtone": [
+   0.035,
+   0.055
+  ],
+  "max_abs_diff": [
+   0.0,
+   0.001
+  ]
+ },
+ "background": {
+  "plane0_model_diff_rms": [
+   0.0,
+   1.0
+  ],
+  "plane0_model_diff_max": [
+   0.0,
+   2.0
+  ],
+  "plane0_corrected_diff_rms": [
+   0.0,
+   1.0
+  ],
+  "plane0_tilt_valerian": [
+   1.4,
+   2.7
+  ],
+  "plane0_tilt_python": [
+   1.4,
+   2.7
+  ],
+  "plane1_model_diff_rms": [
+   0.0,
+   0.15
+  ],
+  "plane1_model_diff_max": [
+   0.0,
+   0.3
+  ],
+  "plane1_corrected_diff_rms": [
+   0.0,
+   0.15
+  ],
+  "plane1_tilt_valerian": [
+   0.4,
+   0.9
+  ],
+  "plane1_tilt_python": [
+   0.5,
+   1.0
+  ],
+  "plane2_model_diff_rms": [
+   0.0,
+   0.2
+  ],
+  "plane2_model_diff_max": [
+   0.0,
+   0.35
+  ],
+  "plane2_corrected_diff_rms": [
+   0.0,
+   0.2
+  ],
+  "plane2_tilt_valerian": [
+   0.5,
+   1.1
+  ],
+  "plane2_tilt_python": [
+   0.7,
+   1.5
+  ]
+ },
+ "drizzle": {
+  "stars_measured": [
+   50,
+   60
+  ],
+  "fwhm_stack": [
+   1.4,
+   1.85
+  ],
+  "fwhm_drizzle": [
+   1.4,
+   1.85
+  ],
+  "gain_fwhm": [
+   0.93,
+   1.08
+  ],
+  "gain_half_flux": [
+   0.93,
+   1.1
+  ],
+  "recovered_percent": [
+   -8.0,
+   15.0
+  ],
+  "noise_stack": [
+   4.0,
+   5.4
+  ],
+  "noise_drizzle_binned": [
+   4.6,
+   6.3
+  ]
+ },
+ "solve": {
+  "stars_matched": [
+   120,
+   200
+  ],
+  "median_offset_px": [
+   0.0,
+   0.2
+  ],
+  "rms_offset_px": [
+   0.0,
+   0.25
+  ],
+  "p90_offset_px": [
+   0.0,
+   0.35
+  ],
+  "refit_worst_arcsec": [
+   0.0,
+   0.35
+  ],
+  "refit_worst_px": [
+   0.0,
+   0.15
+  ]
+ },
+ "photocal": {
+  "same_red_gain_diff_percent": [
+   -5.0,
+   5.0
+  ],
+  "same_blue_gain_diff_percent": [
+   -5.0,
+   5.0
+  ],
+  "deep_red_gain_diff_percent": [
+   -5.0,
+   5.0
+  ],
+  "deep_blue_gain_diff_percent": [
+   -5.0,
+   5.0
+  ],
+  "neutral_rg": [
+   0.9,
+   1.05
+  ],
+  "neutral_bg": [
+   0.93,
+   1.05
+  ],
+  "sky_spread_over_green": [
+   -0.01,
+   0.01
+  ]
+ }
+}

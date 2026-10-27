@@ -1,0 +1,26 @@
+{
+ "id": "user-guide-subframes-fwhm",
+ "page": "user-guide/subframes.md",
+ "kind": "scatter",
+ "title": "FWHM against Gaussian fits",
+ "caption": "FWHM in pixels of two defocused H-alpha frames, Valerian against astropy Gaussian fits, from the table above: Valerian reads 10 and 18 per cent higher.",
+ "alt": "Scatter of Valerian FWHM in pixels against Gaussian-fit FWHM on equal axes. Frame 3: 8.27 against 7.53. Frame 13: 7.06 against 5.97.",
+ "note": "user-guide/subframes.md, 'Checked against astropy and photutils'",
+ "series": [
+  {
+   "name": "Frames 3 and 13",
+   "values": [
+    8.27,
+    7.06
+   ],
+   "x": [
+    7.53,
+    5.97
+   ]
+  }
+ ],
+ "xlabel": "Reference FWHM (Gaussian fit), pixels",
+ "ylabel": "Valerian FWHM, pixels",
+ "equal_axes": true,
+ "identity_line": true
+}

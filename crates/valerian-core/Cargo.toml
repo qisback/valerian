@@ -1,0 +1,28 @@
+[package]
+name = "valerian-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Valerian deep-sky core: image formats, calibration, registration, stacking"
+publish = false
+build = "build.rs"
+
+[lints]
+workspace = true
+
+[lib]
+bench = false
+
+[dependencies]
+# Shared with Helia as a pinned git dependency until the common crates are
+# extracted (issue #4). Bump the tag deliberately.
+helia-core = { version = "0.7.1", git = "https://github.com/qisback/helia.git", rev = "439629e4d213afdfe60426a351094e740ea0132a" }
+png = "0.18.1"
+rayon = "1.12.0"
+thiserror = "2.0.21"
+
+[features]
+testutil = []

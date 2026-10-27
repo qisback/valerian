@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="366" viewBox="0 0 480 366" role="img" aria-labelledby="t d">
+<title id="t">Time of each stage, CPU against GPU</title><desc id="d">Horizontal grouped bars of milliseconds per stage for CPU and GPU. Calibrate 39 and 91, warp 69 and 101, sigma-clip combine 356 and 480, winsorised combine 672 and 535, linear-fit combine 479 and 482, stack plane 1658 and 576.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="365" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Time of each stage, CPU against GPU</text>
+<rect x="16" y="38" width="12" height="12" rx="2" fill="#0072B2"/>
+<text x="34.0" y="49.0" class="ink" text-anchor="start">CPU</text>
+<rect x="73.0" y="38" width="12" height="12" rx="2" fill="#D55E00"/>
+<text x="91.0" y="49.0" class="ink" text-anchor="start">GPU</text>
+<text x="158.0" y="86.5" class="ink" text-anchor="end">Calibrate, one 12.6</text>
+<text x="158.0" y="101.5" class="ink" text-anchor="end">MP frame</text>
+<rect x="166.0" y="75.0" width="5.1" height="14" fill="#0072B2"/>
+<text x="175.1" y="87.0" class="sub" text-anchor="start" style="font-size:11px">39</text>
+<rect x="166.0" y="91.0" width="11.9" height="14" fill="#D55E00"/>
+<text x="181.9" y="103.0" class="sub" text-anchor="start" style="font-size:11px">91</text>
+<text x="158.0" y="126.5" class="ink" text-anchor="end">Warp, bicubic, one</text>
+<text x="158.0" y="141.5" class="ink" text-anchor="end">12.6 MP frame</text>
+<rect x="166.0" y="115.0" width="9.0" height="14" fill="#0072B2"/>
+<text x="179.0" y="127.0" class="sub" text-anchor="start" style="font-size:11px">69</text>
+<rect x="166.0" y="131.0" width="13.2" height="14" fill="#D55E00"/>
+<text x="183.2" y="143.0" class="sub" text-anchor="start" style="font-size:11px">101</text>
+<text x="158.0" y="166.5" class="ink" text-anchor="end">Combine, sigma clip,</text>
+<text x="158.0" y="181.5" class="ink" text-anchor="end">20 frames</text>
+<rect x="166.0" y="155.0" width="46.6" height="14" fill="#0072B2"/>
+<text x="216.6" y="167.0" class="sub" text-anchor="start" style="font-size:11px">356</text>
+<rect x="166.0" y="171.0" width="62.9" height="14" fill="#D55E00"/>
+<text x="232.9" y="183.0" class="sub" text-anchor="start" style="font-size:11px">480</text>
+<text x="158.0" y="206.5" class="ink" text-anchor="end">Combine, winsorised,</text>
+<text x="158.0" y="221.5" class="ink" text-anchor="end">20 frames</text>
+<rect x="166.0" y="195.0" width="88.0" height="14" fill="#0072B2"/>
+<text x="258.0" y="207.0" class="sub" text-anchor="start" style="font-size:11px">672</text>
+<rect x="166.0" y="211.0" width="70.1" height="14" fill="#D55E00"/>
+<text x="240.1" y="223.0" class="sub" text-anchor="start" style="font-size:11px">535</text>
+<text x="158.0" y="246.5" class="ink" text-anchor="end">Combine, linear fit,</text>
+<text x="158.0" y="261.5" class="ink" text-anchor="end">20 frames</text>
+<rect x="166.0" y="235.0" width="62.7" height="14" fill="#0072B2"/>
+<text x="232.7" y="247.0" class="sub" text-anchor="start" style="font-size:11px">479</text>
+<rect x="166.0" y="251.0" width="63.1" height="14" fill="#D55E00"/>
+<text x="233.1" y="263.0" class="sub" text-anchor="start" style="font-size:11px">482</text>
+<text x="158.0" y="286.5" class="ink" text-anchor="end">Stack plane (warp +</text>
+<text x="158.0" y="301.5" class="ink" text-anchor="end">combine), 20 frames</text>
+<rect x="166.0" y="275.0" width="217.2" height="14" fill="#0072B2"/>
+<text x="387.2" y="287.0" class="sub" text-anchor="start" style="font-size:11px">1658</text>
+<rect x="166.0" y="291.0" width="75.5" height="14" fill="#D55E00"/>
+<text x="245.5" y="303.0" class="sub" text-anchor="start" style="font-size:11px">576</text>
+<line class="grid" x1="166.0" x2="166.0" y1="68" y2="310"/>
+<text x="166.0" y="326.0" class="sub" text-anchor="middle" style="font-size:11px">0</text>
+<line class="grid" x1="231.5" x2="231.5" y1="68" y2="310"/>
+<text x="231.5" y="326.0" class="sub" text-anchor="middle" style="font-size:11px">500</text>
+<line class="grid" x1="297.0" x2="297.0" y1="68" y2="310"/>
+<text x="297.0" y="326.0" class="sub" text-anchor="middle" style="font-size:11px">1000</text>
+<line class="grid" x1="362.5" x2="362.5" y1="68" y2="310"/>
+<text x="362.5" y="326.0" class="sub" text-anchor="middle" style="font-size:11px">1500</text>
+<line class="grid" x1="428.0" x2="428.0" y1="68" y2="310"/>
+<text x="428.0" y="326.0" class="sub" text-anchor="middle" style="font-size:11px">2000</text>
+<line class="axis" x1="166" x2="166" y1="68" y2="310"/>
+<text x="297.0" y="344.0" class="sub" text-anchor="middle">Time per call, milliseconds (lower is better)</text>
+</svg>

@@ -1,0 +1,23 @@
+/target
+/site
+/.venv
+# Image data is never committed.
+*.fit
+*.fits
+*.fts
+*.xisf
+*.cr2
+*.cr3
+*.arw
+*.nef
+*.dng
+*.ser
+# Snapshot test scratch files.
+docs/book/src/images/ui/*.old.png
+docs/book/src/images/ui/*.new.png
+docs/book/src/images/ui/*.diff.png
+# Written at docs build time by tools/downloads.py.
+docs/book/src/downloads.json
+# Python bytecode.
+__pycache__/
+*.pyc

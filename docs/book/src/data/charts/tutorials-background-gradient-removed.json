@@ -1,0 +1,46 @@
+{
+ "id": "tutorials-background-gradient-removed",
+ "page": "tutorials/background.md",
+ "kind": "hbars",
+ "title": "Gradient removed by background model",
+ "caption": "Gradient removed per colour for four background models, from the table above: the spline takes out the most, including part of the nebula.",
+ "alt": "Horizontal grouped bars of gradient removed in ADU for red, green and blue. Degree 1: 11.7, 6.3, 8.6. Degree 2: 15.4, 8.2, 9.8. Degree 6: 20.1, 11.4, 10.9. Spline: 26.5, 10.9, 14.9.",
+ "categories": [
+  "--degree 1",
+  "--degree 2 (default)",
+  "--degree 6",
+  "--model spline"
+ ],
+ "series": [
+  {
+   "name": "Red",
+   "values": [
+    11.7,
+    15.4,
+    20.1,
+    26.5
+   ]
+  },
+  {
+   "name": "Green",
+   "values": [
+    6.3,
+    8.2,
+    11.4,
+    10.9
+   ]
+  },
+  {
+   "name": "Blue",
+   "values": [
+    8.6,
+    9.8,
+    10.9,
+    14.9
+   ]
+  }
+ ],
+ "value_axis": "Gradient removed, ADU",
+ "dp": 1,
+ "note": "tutorials/background.md, 'Step 3: Choose the model for your data'"
+}

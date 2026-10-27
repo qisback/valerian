@@ -1,0 +1,7 @@
+{
+ "version": 1,
+ "total": 3,
+ "files": {
+  "crates/valerian-gui/src/console.rs": 3
+ }
+}

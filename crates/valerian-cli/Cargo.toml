@@ -1,0 +1,37 @@
+[package]
+name = "valerian-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "The valerian command line"
+publish = false
+
+[lints]
+workspace = true
+
+[lib]
+name = "valerian_cli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "valerian"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+rayon = "1.12.0"
+serde_json = "1.0.145"
+valerian-core = { version = "0.5.0", path = "../valerian-core" }
+valerian-gpu = { version = "0.5.0", path = "../valerian-gpu" }
+valerian-science = { version = "0.5.0", path = "../valerian-science" }
+
+[dev-dependencies]
+assert_cmd = "2.2.2"
+predicates = "3.1.4"
+png = "0.18.1"
+tempfile = "3.27.0"
+valerian-core = { version = "0.5.0", path = "../valerian-core", features = ["testutil"] }

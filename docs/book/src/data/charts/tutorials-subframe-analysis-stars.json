@@ -1,0 +1,24 @@
+{
+ "id": "tutorials-subframe-analysis-stars",
+ "page": "tutorials/subframe-analysis.md",
+ "kind": "bars",
+ "title": "Stars found, all against approved",
+ "caption": "Stars found in the stack of all sixty frames and of the 46 approved frames, from the table above.",
+ "alt": "Bars of stars found. All 60 frames 518, 46 approved frames 516.",
+ "categories": [
+  "All 60 frames",
+  "46 approved frames"
+ ],
+ "series": [
+  {
+   "name": "Stars",
+   "values": [
+    518,
+    516
+   ]
+  }
+ ],
+ "value_axis": "Stars found (count)",
+ "dp": 0,
+ "note": "tutorials/subframe-analysis.md, the comparison of the two stacks"
+}

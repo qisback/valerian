@@ -1,0 +1,36 @@
+{
+ "id": "user-guide-optics-fwhm-halpha",
+ "page": "user-guide/optics.md",
+ "kind": "scatter",
+ "title": "FWHM by zone, H-alpha",
+ "caption": "FWHM in pixels of the ASI1600MM H-alpha stack, Valerian against astropy fits, from the table above: Valerian reads 0.24 to 0.37 higher.",
+ "alt": "Scatter of Valerian FWHM in pixels against reference FWHM on equal axes. Zones: 8.21 against 7.86, 8.39 against 8.02, 7.8 against 7.44, 7.97 against 7.72, 8.12 against 7.76, 8.36 against 8.12, and Moffat 7.87 against 7.61.",
+ "note": "user-guide/optics.md, 'Checked against astropy and numpy', H-alpha columns",
+ "series": [
+  {
+   "name": "Zones and Moffat",
+   "values": [
+    8.21,
+    8.39,
+    7.8,
+    7.97,
+    8.12,
+    8.36,
+    7.87
+   ],
+   "x": [
+    7.86,
+    8.02,
+    7.44,
+    7.72,
+    7.76,
+    8.12,
+    7.61
+   ]
+  }
+ ],
+ "xlabel": "Reference FWHM (astropy), pixels",
+ "ylabel": "Valerian FWHM, pixels",
+ "equal_axes": true,
+ "identity_line": true
+}

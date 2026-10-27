@@ -1,0 +1,35 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "xtask"]
+
+[workspace.package]
+version = "0.5.0"
+edition = "2024"
+rust-version = "1.95"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/qisback/valerian"
+authors = ["Laurence Horrocks-Barlow"]
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+missing_docs = "warn"
+
+[workspace.lints.clippy]
+all = { level = "deny", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+cast_precision_loss = "allow"
+cast_possible_truncation = "allow"
+cast_sign_loss = "allow"
+module_name_repetitions = "allow"
+unwrap_used = "deny"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+
+# Tests crunch images; keep them fast in debug.
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.test]
+opt-level = 2

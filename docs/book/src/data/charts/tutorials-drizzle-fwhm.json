@@ -1,0 +1,28 @@
+{
+ "id": "tutorials-drizzle-fwhm",
+ "page": "tutorials/drizzle.md",
+ "kind": "hbars",
+ "title": "Star FWHM by drizzle setting",
+ "caption": "Star FWHM in original pixels for four drizzle settings on the same sixty frames, from the table above.",
+ "alt": "Horizontal bars of star FWHM in original pixels. Defaults 2.52, pixfrac 1.0 2.63, scale 3 2.45, no-reject 2.46.",
+ "categories": [
+  "Defaults (scale 2, pixfrac 0.6)",
+  "--pixfrac 1.0",
+  "--scale 3",
+  "--no-reject"
+ ],
+ "series": [
+  {
+   "name": "Star FWHM",
+   "values": [
+    2.52,
+    2.63,
+    2.45,
+    2.46
+   ]
+  }
+ ],
+ "value_axis": "Star FWHM, original pixels (lower is sharper)",
+ "dp": 2,
+ "note": "tutorials/drizzle.md, 'Measured on the same sixty frames'"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "user-guide-calibration-memory",
+ "page": "user-guide/calibration.md",
+ "kind": "hbars",
+ "title": "Memory to build the masters",
+ "caption": "Memory of two calibration jobs with every frame loaded and with the frames streamed, from the paragraph above.",
+ "alt": "Horizontal grouped bars of memory in GiB. Bias master of 70 frames: 5.8 with every frame loaded, 0.53 streamed with the default budget. Darks, dark flats, flats and one light: 4.8 before, 1.4 now.",
+ "note": "user-guide/calibration.md, 'Measured on a 24-core machine'",
+ "categories": [
+  "Bias master, 70 frames",
+  "Darks, dark flats, flats, one light"
+ ],
+ "series": [
+  {
+   "name": "Every frame loaded",
+   "values": [
+    5.8,
+    4.8
+   ]
+  },
+  {
+   "name": "Streamed (default budget)",
+   "values": [
+    0.53,
+    1.4
+   ]
+  }
+ ],
+ "value_axis": "Memory, GiB (lower is better)",
+ "dp": 2
+}

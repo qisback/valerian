@@ -1,0 +1,38 @@
+{
+ "id": "user-guide-colour-calibration-gain-agreement",
+ "page": "user-guide/colour-calibration.md",
+ "kind": "scatter",
+ "title": "Valerian gain against reference gain",
+ "caption": "Red and blue gains from Valerian against astropy and photutils, on 34 stars and on 143 deeper ones, from the table above: the dashed line is equality.",
+ "alt": "Scatter of Valerian gain against reference gain on equal axes. Red: 0.7547 against 0.7583 and 0.7547 against 0.7465. Blue: 0.986 against 0.985 and 0.986 against 0.9771.",
+ "note": "user-guide/colour-calibration.md, 'Measured'",
+ "series": [
+  {
+   "name": "Red",
+   "values": [
+    0.7547,
+    0.7547
+   ],
+   "x": [
+    0.7583,
+    0.7465
+   ]
+  },
+  {
+   "name": "Blue",
+   "values": [
+    0.986,
+    0.986
+   ],
+   "x": [
+    0.985,
+    0.9771
+   ]
+  }
+ ],
+ "xlabel": "Reference gain (astropy and photutils)",
+ "ylabel": "Valerian gain",
+ "equal_axes": true,
+ "identity_line": true,
+ "dp": 4
+}

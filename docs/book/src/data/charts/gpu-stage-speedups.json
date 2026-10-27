@@ -1,0 +1,13 @@
+{
+ "id": "gpu-stage-speedups",
+ "page": "user-guide/gpu.md",
+ "kind": "hbars",
+ "title": "Time of each stage, CPU against GPU",
+ "caption": "Time per stage on the 24-core CPU and on the GPU, from the table above: the card wins on the full stack and loses where copying dominates.",
+ "alt": "Horizontal grouped bars of milliseconds per stage for CPU and GPU. Calibrate 39 and 91, warp 69 and 101, sigma-clip combine 356 and 480, winsorised combine 672 and 535, linear-fit combine 479 and 482, stack plane 1658 and 576.",
+ "categories": ["Calibrate, one 12.6 MP frame", "Warp, bicubic, one 12.6 MP frame", "Combine, sigma clip, 20 frames", "Combine, winsorised, 20 frames", "Combine, linear fit, 20 frames", "Stack plane (warp + combine), 20 frames"],
+ "series": [{"name": "CPU", "values": [39, 69, 356, 672, 479, 1658]}, {"name": "GPU", "values": [91, 101, 480, 535, 482, 576]}],
+ "value_axis": "Time per call, milliseconds (lower is better)",
+ "dp": 0,
+ "note": "user-guide/gpu.md, 'Measured'"
+}

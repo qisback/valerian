@@ -1,0 +1,35 @@
+{
+ "id": "tutorials-integration-reduction",
+ "page": "tutorials/integration.md",
+ "kind": "scatter",
+ "title": "Reduction against the square root",
+ "caption": "Noise reduction of the stack against the square root of the number of frames, from the noise.csv listing: the dashed line is the law, and the points leave it past 8 frames.",
+ "alt": "Scatter of measured reduction against the square root of the frame count on equal axes. Pairs: 1.0 and 1.034, 1.414 and 1.334, 2.0 and 1.911, 2.828 and 2.836, 4.0 and 3.541, 5.477 and 4.928.",
+ "note": "tutorials/integration.md, 'Step 4', noise.csv",
+ "series": [
+  {
+   "name": "1 to 30 frames per half",
+   "values": [
+    1.034,
+    1.334,
+    1.911,
+    2.836,
+    3.541,
+    4.928
+   ],
+   "x": [
+    1.0,
+    1.414,
+    2.0,
+    2.828,
+    4.0,
+    5.477
+   ]
+  }
+ ],
+ "xlabel": "Square root of the number of frames (times)",
+ "ylabel": "Measured reduction (times)",
+ "equal_axes": true,
+ "identity_line": true,
+ "dp": 3
+}

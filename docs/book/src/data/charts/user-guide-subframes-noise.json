@@ -1,0 +1,45 @@
+{
+ "id": "user-guide-subframes-noise",
+ "page": "user-guide/subframes.md",
+ "kind": "scatter",
+ "title": "Noise against two estimators",
+ "caption": "Noise in ADU of four H-alpha frames, Valerian against two astropy estimators, from the table above: Valerian reads a little higher than both.",
+ "alt": "Scatter of Valerian noise in ADU against reference noise on equal axes. Against the clipped standard deviation of differences: 61.3 against 60.48, 59.32 against 58.56, 52.9 against 52.86, 52.32 against 51.61. Against Background2D rms: 61.3 against 59.65, 59.32 against 57.04, 52.9 against 51.53, 52.32 against 51.18.",
+ "note": "user-guide/subframes.md, 'Checked against astropy and photutils'",
+ "series": [
+  {
+   "name": "Clipped std of differences",
+   "values": [
+    61.3,
+    59.32,
+    52.9,
+    52.32
+   ],
+   "x": [
+    60.48,
+    58.56,
+    52.86,
+    51.61
+   ]
+  },
+  {
+   "name": "Background2D rms",
+   "values": [
+    61.3,
+    59.32,
+    52.9,
+    52.32
+   ],
+   "x": [
+    59.65,
+    57.04,
+    51.53,
+    51.18
+   ]
+  }
+ ],
+ "xlabel": "Reference noise, ADU",
+ "ylabel": "Valerian noise, ADU",
+ "equal_axes": true,
+ "identity_line": true
+}

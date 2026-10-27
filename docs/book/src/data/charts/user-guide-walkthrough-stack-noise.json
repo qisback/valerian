@@ -1,0 +1,32 @@
+{
+ "id": "user-guide-walkthrough-stack-noise",
+ "page": "user-guide/walkthrough.md",
+ "kind": "bars",
+ "title": "Noise of one frame against the stack",
+ "caption": "Noise of each of the five H-alpha frames from the printed table of step 3 and of the stack from the listing of its statistics.",
+ "alt": "Bars of noise in ADU. Frames 0 to 4: 59.28, 59.31, 59.02, 58.78, 58.92. Stack plane 0: 39.3.",
+ "note": "user-guide/walkthrough.md, '3. Stack' and 'info --stats' of the stack",
+ "categories": [
+  "Frame 0",
+  "Frame 1",
+  "Frame 2",
+  "Frame 3",
+  "Frame 4",
+  "Stack"
+ ],
+ "series": [
+  {
+   "name": "Noise",
+   "values": [
+    59.28,
+    59.31,
+    59.02,
+    58.78,
+    58.92,
+    39.3
+   ]
+  }
+ ],
+ "value_axis": "Noise, ADU (lower is cleaner)",
+ "dp": 2
+}

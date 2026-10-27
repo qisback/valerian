@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="308" viewBox="0 0 480 308" role="img" aria-labelledby="t d">
+<title id="t">Pixels filled by setting</title><desc id="d">Horizontal bars of pixels filled in per cent. Defaults 5.38, threshold 8 2.48, threshold 2.5 22.35, mask scale 1.5 7.46, grow 4 7.84, max radius 8 3.98, strength 0.5 and others 5.38.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="307" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Pixels filled by setting</text>
+<text x="158.0" y="66.0" class="ink" text-anchor="end">Defaults</text>
+<rect x="166.0" y="53.0" width="56.4" height="18" fill="#0072B2"/>
+<text x="226.4" y="69.0" class="sub" text-anchor="start" style="font-size:11px">5.38</text>
+<text x="158.0" y="94.0" class="ink" text-anchor="end">--threshold 8</text>
+<rect x="166.0" y="81.0" width="26.0" height="18" fill="#0072B2"/>
+<text x="196.0" y="97.0" class="sub" text-anchor="start" style="font-size:11px">2.48</text>
+<text x="158.0" y="122.0" class="ink" text-anchor="end">--threshold 2.5</text>
+<rect x="166.0" y="109.0" width="234.2" height="18" fill="#0072B2"/>
+<text x="404.2" y="125.0" class="sub" text-anchor="start" style="font-size:11px">22.35</text>
+<text x="158.0" y="150.0" class="ink" text-anchor="end">--mask-scale 1.5</text>
+<rect x="166.0" y="137.0" width="78.2" height="18" fill="#0072B2"/>
+<text x="248.2" y="153.0" class="sub" text-anchor="start" style="font-size:11px">7.46</text>
+<text x="158.0" y="178.0" class="ink" text-anchor="end">--grow 4</text>
+<rect x="166.0" y="165.0" width="82.2" height="18" fill="#0072B2"/>
+<text x="252.2" y="181.0" class="sub" text-anchor="start" style="font-size:11px">7.84</text>
+<text x="158.0" y="206.0" class="ink" text-anchor="end">--max-radius 8</text>
+<rect x="166.0" y="193.0" width="41.7" height="18" fill="#0072B2"/>
+<text x="211.7" y="209.0" class="sub" text-anchor="start" style="font-size:11px">3.98</text>
+<text x="158.0" y="230.5" class="ink" text-anchor="end">--strength 0.5,</text>
+<text x="158.0" y="245.5" class="ink" text-anchor="end">--no-noise, --seed 7</text>
+<rect x="166.0" y="225.0" width="56.4" height="18" fill="#0072B2"/>
+<text x="226.4" y="241.0" class="sub" text-anchor="start" style="font-size:11px">5.38</text>
+<line class="grid" x1="166.0" x2="166.0" y1="46" y2="252"/>
+<text x="166.0" y="268.0" class="sub" text-anchor="middle" style="font-size:11px">0</text>
+<line class="grid" x1="218.4" x2="218.4" y1="46" y2="252"/>
+<text x="218.4" y="268.0" class="sub" text-anchor="middle" style="font-size:11px">5</text>
+<line class="grid" x1="270.8" x2="270.8" y1="46" y2="252"/>
+<text x="270.8" y="268.0" class="sub" text-anchor="middle" style="font-size:11px">10</text>
+<line class="grid" x1="323.2" x2="323.2" y1="46" y2="252"/>
+<text x="323.2" y="268.0" class="sub" text-anchor="middle" style="font-size:11px">15</text>
+<line class="grid" x1="375.6" x2="375.6" y1="46" y2="252"/>
+<text x="375.6" y="268.0" class="sub" text-anchor="middle" style="font-size:11px">20</text>
+<line class="grid" x1="428.0" x2="428.0" y1="46" y2="252"/>
+<text x="428.0" y="268.0" class="sub" text-anchor="middle" style="font-size:11px">25</text>
+<line class="axis" x1="166" x2="166" y1="46" y2="252"/>
+<text x="297.0" y="286.0" class="sub" text-anchor="middle">Pixels filled, per cent of the picture</text>
+</svg>

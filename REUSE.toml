@@ -1,0 +1,99 @@
+# Valerian is GPL-3.0-or-later with additional terms under GPLv3 section 7 (7(b) and 7(c)): see
+# ADDITIONAL-TERMS.md. The terms are not an SPDX licence; the files point to them in their headers.
+# REUSE specification 3.2 annotations for files that cannot carry a header.
+# Source files (Rust, WGSL, Python, shell, workflow YAML) carry their own
+# SPDX headers; `cargo xtask reuse-check` enforces both.
+version = 1
+
+[[annotations]]
+path = [
+  "LICENSE",
+  "REUSE.toml",
+  "Cargo.lock",
+  "**/Cargo.toml",
+  "**/Cargo.lock",
+  "deny.toml",
+  ".security-audit/*.json",
+  ".security-audit/*.toml",
+  "rustfmt.toml",
+  ".cargo/**",
+  ".gitattributes",
+  ".gitignore",
+  "*.md",
+  ".github/*.md",
+  ".forgejo/*.md",
+  ".github/*.md",
+  "docs/**",
+  "zensical.toml",
+  "tools/bench/results/*.json",
+  "scripts/python_parity.json",
+  "scripts/python-parity-requirements.txt",
+  "packaging/about.toml",
+  "packaging/about.hbs",
+  "packaging/gaia-notice.txt",
+  "packaging/linux/copyright",
+  "packaging/linux/*.xml.in",
+  "packaging/linux/*.spec.in",
+  "packaging/linux/Dockerfile.*",
+  "packaging/linux/valerian.desktop",
+  "packaging/macos/Info.plist.in",
+  "packaging/windows/valerian.nsi",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Laurence Horrocks-Barlow"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# A random-weights model that follows the grader contract, used only to test the
+# loading and the plumbing. It is not a trained model.
+[[annotations]]
+path = ["crates/valerian-science/tests/data/*.onnx"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Laurence Horrocks-Barlow"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# The trained Seestar sub grader, embedded in the program. Trained from random
+# initialisation on the author's own Seestar subs; no third-party weights.
+[[annotations]]
+path = ["crates/valerian-science/assets/*.onnx"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Laurence Horrocks-Barlow"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# Third-party: IBM Plex fonts keep their own copyright and licence.
+[[annotations]]
+path = ["crates/valerian-gui/assets/fonts/IBMPlex*.ttf", "crates/valerian-gui/assets/fonts/OFL-IBM-Plex.txt"]
+precedence = "override"
+SPDX-FileCopyrightText = "2017 IBM Corp. with Reserved Font Name \"Plex\""
+SPDX-License-Identifier = "OFL-1.1"
+
+# The bundled list of NGC, IC and Messier objects: a subset of OpenNGC by Mattia Verga
+# (https://github.com/mattiaverga/OpenNGC), CC BY-SA 4.0, which is compatible with the GPL for
+# a program that carries the data. It is made by scripts/build_objects.py.
+[[annotations]]
+path = ["crates/valerian-science/data/objects.csv", "crates/valerian-science/data/NOTICE"]
+precedence = "override"
+SPDX-FileCopyrightText = "2023 Mattia Verga (OpenNGC)"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# The Valerian logo and every image derived from it: all rights reserved, not GPL.
+# See LOGO-LICENCE.md.
+[[annotations]]
+path = [
+  "assets/branding/**",
+  "docs/book/src/images/valerian-logo.png",
+  "docs/book/src/images/favicon-header.png",
+  "docs/book/src/images/favicon.png",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Laurence Horrocks-Barlow"
+SPDX-License-Identifier = "LicenseRef-Valerian-Logo"
+
+# Star positions from Gaia DR3, (c) ESA/Gaia/DPAC. ESA states CC BY-NC 3.0 IGO
+# (https://www.cosmos.esa.int/web/gaia-users/license, checked 2026-10-21); commercial
+# use needs ESA authorisation (see docs/LEGAL-AUDIT.md). The data file is kept apart
+# from the program: it is read at run time, not compiled into code.
+[[annotations]]
+path = ["crates/valerian-core/data/*.vcat", "crates/valerian-core/data/NOTICE"]
+precedence = "override"
+SPDX-FileCopyrightText = "ESA/Gaia/DPAC (Gaia Data Processing and Analysis Consortium)"
+SPDX-License-Identifier = "CC-BY-NC-3.0-IGO"

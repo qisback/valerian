@@ -1,0 +1,24 @@
+{
+ "id": "user-guide-quick-start-noise-reduction",
+ "page": "user-guide/quick-start.md",
+ "kind": "bars",
+ "title": "Noise reduction of 24 frames",
+ "caption": "How many times quieter a stack of 24 Seestar frames is than one frame, against the square root of 24, from the paragraph above.",
+ "alt": "Bars of noise reduction in times. Measured 4.8, square root of 24 4.9.",
+ "note": "user-guide/quick-start.md, 'What it costs'",
+ "categories": [
+  "Measured, 54.7 to 11.4 ADU",
+  "Square root of 24"
+ ],
+ "series": [
+  {
+   "name": "Times quieter",
+   "values": [
+    4.8,
+    4.9
+   ]
+  }
+ ],
+ "value_axis": "Noise reduction, times",
+ "dp": 1
+}

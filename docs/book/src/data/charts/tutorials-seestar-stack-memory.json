@@ -1,0 +1,28 @@
+{
+ "id": "tutorials-seestar-stack-memory",
+ "page": "tutorials/seestar-faint-field-gpu.md",
+ "kind": "hbars",
+ "title": "Peak memory of a 184-frame stack",
+ "caption": "Peak memory of the same 184-frame stack with each setting, from the table above.",
+ "alt": "Horizontal bars of peak memory in MiB. Memory 1024: 1164. Memory 4096: 1865. Memory 16384: 5346. Science report: 8966.",
+ "categories": [
+  "--memory 1024",
+  "--memory 4096 (default)",
+  "--memory 16384",
+  "--science-report"
+ ],
+ "series": [
+  {
+   "name": "Peak memory",
+   "values": [
+    1164,
+    1865,
+    5346,
+    8966
+   ]
+  }
+ ],
+ "value_axis": "Peak memory, MiB (lower is smaller)",
+ "dp": 0,
+ "note": "tutorials/seestar-faint-field-gpu.md, the memory table"
+}

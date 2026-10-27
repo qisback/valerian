@@ -1,0 +1,16 @@
+OpenNGC object list: objects.csv
+================================
+
+The list of Messier, NGC and IC objects that valerian annotate draws is a subset of
+OpenNGC by Mattia Verga, https://github.com/mattiaverga/OpenNGC
+
+Copyright: 2023 Mattia Verga (OpenNGC).
+
+Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0),
+https://creativecommons.org/licenses/by-sa/4.0/
+Attribution and share-alike apply to this file: if you copy, change or redistribute it,
+keep this attribution, say what you changed, and share your version under CC BY-SA 4.0
+or a compatible licence. The rest of Valerian is GPL-3.0-or-later with additional terms
+(see ADDITIONAL-TERMS.md); this file keeps its own licence (LICENSES/CC-BY-SA-4.0.txt).
+
+The subset is made with scripts/build_objects.py.

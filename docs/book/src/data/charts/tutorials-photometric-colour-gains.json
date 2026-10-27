@@ -1,0 +1,49 @@
+{
+ "id": "tutorials-photometric-colour-gains",
+ "page": "tutorials/photometric-colour.md",
+ "kind": "hbars",
+ "title": "Gains by option",
+ "caption": "Red and blue gains for each option on the same image, from the table above: the reference colour moves the red gain most.",
+ "alt": "Horizontal grouped bars of gains for red and blue. Defaults 0.7547 and 0.986. Reference colour 0.5: 0.9099 and 0.9629. Reference colour 1.2: 0.6043 and 1.0142. Max mag 10: 0.744 and 0.9852. Min mag 8: 0.7559 and 0.9872. Aperture 3: 0.741 and 0.9895. Colour 0.5 to 1.8: 0.7527 and 0.9872. Min SNR 30: 0.7547 and 0.986.",
+ "categories": [
+  "Defaults",
+  "--reference-colour 0.5",
+  "--reference-colour 1.2",
+  "--max-mag 10",
+  "--min-mag 8",
+  "--aperture 3",
+  "--colour-min 0.5 --colour-max 1.8",
+  "--min-snr 30"
+ ],
+ "series": [
+  {
+   "name": "Gain R",
+   "values": [
+    0.7547,
+    0.9099,
+    0.6043,
+    0.744,
+    0.7559,
+    0.741,
+    0.7527,
+    0.7547
+   ]
+  },
+  {
+   "name": "Gain B",
+   "values": [
+    0.986,
+    0.9629,
+    1.0142,
+    0.9852,
+    0.9872,
+    0.9895,
+    0.9872,
+    0.986
+   ]
+  }
+ ],
+ "value_axis": "Gain (multiplier)",
+ "dp": 4,
+ "note": "tutorials/photometric-colour.md, the table of options"
+}

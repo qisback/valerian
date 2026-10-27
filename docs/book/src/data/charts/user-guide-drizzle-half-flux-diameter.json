@@ -1,0 +1,38 @@
+{
+ "id": "user-guide-drizzle-half-flux-diameter",
+ "page": "user-guide/drizzle.md",
+ "kind": "hbars",
+ "title": "Half-flux diameter, stack against drizzle",
+ "caption": "Diameter holding half the light, in binned pixels, of the plain stack, the drizzle and the unbinned answer, from the table above.",
+ "alt": "Horizontal bars of half-flux diameter in binned pixels. Bin 2: stack 1.793, drizzle pixfrac 0.5 1.711, 0.7 1.766, 1.0 1.881, unbinned answer 1.347. Bin 3: stack 1.998, drizzle 2x 1.902, drizzle 3x pixfrac 0.5 1.915, 3x pixfrac 0.7 1.901.",
+ "categories": [
+  "Bin 2 stack",
+  "Bin 2, drizzle 2x, pixfrac 0.5",
+  "Bin 2, drizzle 2x, pixfrac 0.7",
+  "Bin 2, drizzle 2x, pixfrac 1.0",
+  "Bin 2, unbinned stack (the answer)",
+  "Bin 3 stack (49 frames)",
+  "Bin 3, drizzle 2x, pixfrac 0.5",
+  "Bin 3, drizzle 3x, pixfrac 0.5",
+  "Bin 3, drizzle 3x, pixfrac 0.7"
+ ],
+ "series": [
+  {
+   "name": "Half-flux diameter",
+   "values": [
+    1.793,
+    1.711,
+    1.766,
+    1.881,
+    1.347,
+    1.998,
+    1.902,
+    1.915,
+    1.901
+   ]
+  }
+ ],
+ "value_axis": "Half-flux diameter, binned pixels (lower is sharper)",
+ "dp": 3,
+ "note": "user-guide/drizzle.md, 'What it does on real data'"
+}

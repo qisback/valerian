@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-subframe-analysis-noise",
+ "page": "tutorials/subframe-analysis.md",
+ "kind": "bars",
+ "title": "Stack noise, all against approved",
+ "caption": "Noise per colour in the stack of all sixty frames and of the 46 approved frames, from the table above: leaving frames out made it slightly noisier.",
+ "alt": "Grouped bars of noise in ADU. All 60 frames: red 12.49, green 7.47, blue 10.12. 46 approved frames: red 12.75, green 7.73, blue 10.58.",
+ "categories": [
+  "Red",
+  "Green",
+  "Blue"
+ ],
+ "series": [
+  {
+   "name": "All 60 frames",
+   "values": [
+    12.49,
+    7.47,
+    10.12
+   ]
+  },
+  {
+   "name": "46 approved frames",
+   "values": [
+    12.75,
+    7.73,
+    10.58
+   ]
+  }
+ ],
+ "value_axis": "Noise, ADU (lower is cleaner)",
+ "dp": 2,
+ "note": "tutorials/subframe-analysis.md, the comparison of the two stacks"
+}

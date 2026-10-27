@@ -1,0 +1,38 @@
+{
+ "id": "user-guide-drizzle-fwhm",
+ "page": "user-guide/drizzle.md",
+ "kind": "hbars",
+ "title": "Star FWHM, stack against drizzle",
+ "caption": "Star FWHM in binned pixels of the plain stack, the drizzle and the unbinned answer, from the table above, on sixty Seestar S50 frames.",
+ "alt": "Horizontal bars of FWHM in binned pixels. Bin 2: stack 1.606, drizzle pixfrac 0.5 1.575, 0.7 1.635, 1.0 1.75, unbinned answer 1.215. Bin 3: stack 1.365, drizzle 2x 1.289, drizzle 3x pixfrac 0.5 1.246, 3x pixfrac 0.7 1.316.",
+ "categories": [
+  "Bin 2 stack",
+  "Bin 2, drizzle 2x, pixfrac 0.5",
+  "Bin 2, drizzle 2x, pixfrac 0.7",
+  "Bin 2, drizzle 2x, pixfrac 1.0",
+  "Bin 2, unbinned stack (the answer)",
+  "Bin 3 stack (49 frames)",
+  "Bin 3, drizzle 2x, pixfrac 0.5",
+  "Bin 3, drizzle 3x, pixfrac 0.5",
+  "Bin 3, drizzle 3x, pixfrac 0.7"
+ ],
+ "series": [
+  {
+   "name": "FWHM",
+   "values": [
+    1.606,
+    1.575,
+    1.635,
+    1.75,
+    1.215,
+    1.365,
+    1.289,
+    1.246,
+    1.316
+   ]
+  }
+ ],
+ "value_axis": "Star FWHM, binned pixels (lower is sharper)",
+ "dp": 3,
+ "note": "user-guide/drizzle.md, 'What it does on real data'"
+}

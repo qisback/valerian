@@ -1,0 +1,32 @@
+{
+ "id": "user-guide-plate-solving-times",
+ "page": "user-guide/plate-solving.md",
+ "kind": "bars",
+ "title": "Hinted against blind solve time",
+ "caption": "Time of a hinted and of a blind solve on two real stacks, from the table above, on a log axis.",
+ "alt": "Grouped bars of seconds on a log axis. H-alpha stack: hinted 0.65, blind 7.1. Seestar colour stack: hinted 0.12, blind 11.3.",
+ "categories": [
+  "H-alpha stack, 4656 x 3520",
+  "Seestar stack, 1080 x 1920"
+ ],
+ "series": [
+  {
+   "name": "Hinted",
+   "values": [
+    0.65,
+    0.12
+   ]
+  },
+  {
+   "name": "Blind",
+   "values": [
+    7.1,
+    11.3
+   ]
+  }
+ ],
+ "value_axis": "Solve time, seconds (lower is better)",
+ "dp": 2,
+ "note": "user-guide/plate-solving.md, 'Measured'",
+ "log": true
+}

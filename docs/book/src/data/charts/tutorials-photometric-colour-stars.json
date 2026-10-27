@@ -1,0 +1,49 @@
+{
+ "id": "tutorials-photometric-colour-stars",
+ "page": "tutorials/photometric-colour.md",
+ "kind": "hbars",
+ "title": "Stars measured and used",
+ "caption": "Stars measured and stars used in the fit for each option, from the table above.",
+ "alt": "Horizontal grouped bars of star counts, measured then used. Defaults 36 and 33. Reference colour 0.5 or 1.2: 36 and 33. Max mag 10: 18 and 18. Min mag 8: 35 and 32. Aperture 3: 32 and 26. Colour 0.5 to 1.8: 29 and 28. Min SNR 30: 36 and 33.",
+ "categories": [
+  "Defaults",
+  "--reference-colour 0.5",
+  "--reference-colour 1.2",
+  "--max-mag 10",
+  "--min-mag 8",
+  "--aperture 3",
+  "--colour-min 0.5 --colour-max 1.8",
+  "--min-snr 30"
+ ],
+ "series": [
+  {
+   "name": "Measured",
+   "values": [
+    36,
+    36,
+    36,
+    18,
+    35,
+    32,
+    29,
+    36
+   ]
+  },
+  {
+   "name": "Used",
+   "values": [
+    33,
+    33,
+    33,
+    18,
+    32,
+    26,
+    28,
+    33
+   ]
+  }
+ ],
+ "value_axis": "Stars (count)",
+ "dp": 0,
+ "note": "tutorials/photometric-colour.md, the table of options"
+}

@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-gpu-processor-time",
+ "page": "tutorials/gpu.md",
+ "kind": "bars",
+ "title": "Processor time of three stack runs",
+ "caption": "Processor time used by three runs of the stack on the processor and on the card, from the table above: the card needs about a third.",
+ "alt": "Grouped bars of processor time in seconds for three runs. Processor: 71.6, 72.3, 72.4. Graphics card: 25.7, 25.7, 26.5.",
+ "categories": [
+  "Run 1",
+  "Run 2",
+  "Run 3"
+ ],
+ "series": [
+  {
+   "name": "--backend cpu",
+   "values": [
+    71.6,
+    72.3,
+    72.4
+   ]
+  },
+  {
+   "name": "--backend gpu",
+   "values": [
+    25.7,
+    25.7,
+    26.5
+   ]
+  }
+ ],
+ "value_axis": "Processor time used, seconds (lower is better)",
+ "dp": 1,
+ "note": "tutorials/gpu.md, the table of three runs of each"
+}

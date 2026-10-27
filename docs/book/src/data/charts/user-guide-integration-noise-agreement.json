@@ -1,0 +1,36 @@
+{
+ "id": "user-guide-integration-noise-agreement",
+ "page": "user-guide/integration.md",
+ "kind": "scatter",
+ "title": "Valerian noise against reference",
+ "caption": "Noise of the mean of 2m frames, Valerian against the astropy reference on log axes, from the table above: the points drift above the dashed line at 16 and 30 frames.",
+ "alt": "Scatter of Valerian noise in ADU against reference noise on equal log axes. Pairs: 46.84 against 46.61, 33.4 against 33.1, 23.39 against 23.24, 16.15 against 15.97, 11.91 against 11.54, 8.79 against 8.26.",
+ "note": "user-guide/integration.md, 'Checked against astropy and numpy'",
+ "series": [
+  {
+   "name": "1 to 30 frames per half",
+   "values": [
+    46.84,
+    33.4,
+    23.39,
+    16.15,
+    11.91,
+    8.79
+   ],
+   "x": [
+    46.61,
+    33.1,
+    23.24,
+    15.97,
+    11.54,
+    8.26
+   ]
+  }
+ ],
+ "xlabel": "Reference noise (astropy), ADU",
+ "ylabel": "Valerian noise, ADU",
+ "equal_axes": true,
+ "identity_line": true,
+ "log": true,
+ "logx": true
+}

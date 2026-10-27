@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-star-removal-stars-found",
+ "page": "tutorials/star-removal.md",
+ "kind": "hbars",
+ "title": "Stars found by setting",
+ "caption": "Stars found on flat.fits for each setting, from the table above.",
+ "alt": "Horizontal bars of stars found. Defaults 693, threshold 8 395, threshold 2.5 2360, and 693 for each of the other four settings.",
+ "categories": [
+  "Defaults",
+  "--threshold 8",
+  "--threshold 2.5",
+  "--mask-scale 1.5",
+  "--grow 4",
+  "--max-radius 8",
+  "--strength 0.5, --no-noise, --seed 7"
+ ],
+ "series": [
+  {
+   "name": "Stars found",
+   "values": [
+    693,
+    395,
+    2360,
+    693,
+    693,
+    693,
+    693
+   ]
+  }
+ ],
+ "value_axis": "Stars found (count)",
+ "dp": 0,
+ "note": "tutorials/star-removal.md, 'Measured on flat.fits'"
+}

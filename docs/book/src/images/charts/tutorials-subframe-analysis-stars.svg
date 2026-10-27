@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="309" viewBox="0 0 480 309" role="img" aria-labelledby="t d">
+<title id="t">Stars found, all against approved</title><desc id="d">Bars of stars found. All 60 frames 518, 46 approved frames 516.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="308" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Stars found, all against approved</text>
+<line class="grid" x1="58" x2="468" y1="246.0" y2="246.0"/>
+<text x="52.0" y="250.0" class="sub" text-anchor="end" style="font-size:11px">0</text>
+<line class="grid" x1="58" x2="468" y1="214.3" y2="214.3"/>
+<text x="52.0" y="218.3" class="sub" text-anchor="end" style="font-size:11px">100</text>
+<line class="grid" x1="58" x2="468" y1="182.7" y2="182.7"/>
+<text x="52.0" y="186.7" class="sub" text-anchor="end" style="font-size:11px">200</text>
+<line class="grid" x1="58" x2="468" y1="151.0" y2="151.0"/>
+<text x="52.0" y="155.0" class="sub" text-anchor="end" style="font-size:11px">300</text>
+<line class="grid" x1="58" x2="468" y1="119.3" y2="119.3"/>
+<text x="52.0" y="123.3" class="sub" text-anchor="end" style="font-size:11px">400</text>
+<line class="grid" x1="58" x2="468" y1="87.7" y2="87.7"/>
+<text x="52.0" y="91.7" class="sub" text-anchor="end" style="font-size:11px">500</text>
+<line class="grid" x1="58" x2="468" y1="56.0" y2="56.0"/>
+<text x="52.0" y="60.0" class="sub" text-anchor="end" style="font-size:11px">600</text>
+<rect x="143.5" y="82.0" width="33.0" height="164.0" fill="#0072B2"/>
+<text x="160.0" y="79.0" class="sub" text-anchor="middle" style="font-size:11px">518</text>
+<text x="160.5" y="262.0" class="ink" text-anchor="middle">All 60 frames</text>
+<rect x="348.5" y="82.6" width="33.0" height="163.4" fill="#0072B2"/>
+<text x="365.0" y="79.6" class="sub" text-anchor="middle" style="font-size:11px">516</text>
+<text x="365.5" y="262.0" class="ink" text-anchor="middle">46 approved frames</text>
+<line class="axis" x1="58" x2="468" y1="246.0" y2="246.0"/>
+<line class="axis" x1="58" x2="58" y1="56" y2="246"/>
+<text x="240.0" y="287.0" class="sub" text-anchor="middle">Stars found (count)</text>
+</svg>

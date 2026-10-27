@@ -1,0 +1,26 @@
+[package]
+name = "valerian-gpu"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Valerian wgpu compute backend"
+publish = false
+build = "build.rs"
+
+[lints]
+workspace = true
+
+[lib]
+bench = false
+
+[dependencies]
+# Shared with Helia as a pinned git dependency until the common crates are
+# extracted (issue #4). Bump the revision deliberately. The device and
+# queue accessors and the wgpu re-export are Helia's #113, merged as this revision.
+helia-gpu = { version = "0.7.1", git = "https://github.com/qisback/helia.git", rev = "439629e4d213afdfe60426a351094e740ea0132a" }
+bytemuck = { version = "1.25.2", features = ["derive"] }
+# The bench makes its own made-up frames with the testutil generators.
+valerian-core = { version = "0.5.0", path = "../valerian-core", features = ["testutil"] }

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="350" viewBox="0 0 480 350" role="img" aria-labelledby="t d">
+<title id="t">Gradient removed by background model</title><desc id="d">Horizontal grouped bars of gradient removed in ADU for red, green and blue. Degree 1: 11.7, 6.3, 8.6. Degree 2: 15.4, 8.2, 9.8. Degree 6: 20.1, 11.4, 10.9. Spline: 26.5, 10.9, 14.9.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="349" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Gradient removed by background model</text>
+<rect x="16" y="38" width="12" height="12" rx="2" fill="#0072B2"/>
+<text x="34.0" y="49.0" class="ink" text-anchor="start">Red</text>
+<rect x="73.0" y="38" width="12" height="12" rx="2" fill="#D55E00"/>
+<text x="91.0" y="49.0" class="ink" text-anchor="start">Green</text>
+<rect x="144.0" y="38" width="12" height="12" rx="2" fill="#009E73"/>
+<text x="162.0" y="49.0" class="ink" text-anchor="start">Blue</text>
+<text x="158.0" y="102.0" class="ink" text-anchor="end">--degree 1</text>
+<rect x="166.0" y="75.0" width="102.2" height="14" fill="#0072B2"/>
+<text x="272.2" y="87.0" class="sub" text-anchor="start" style="font-size:11px">11.7</text>
+<rect x="166.0" y="91.0" width="55.0" height="14" fill="#D55E00"/>
+<text x="225.0" y="103.0" class="sub" text-anchor="start" style="font-size:11px">6.3</text>
+<rect x="166.0" y="107.0" width="75.1" height="14" fill="#009E73"/>
+<text x="245.1" y="119.0" class="sub" text-anchor="start" style="font-size:11px">8.6</text>
+<text x="158.0" y="158.0" class="ink" text-anchor="end">--degree 2 (default)</text>
+<rect x="166.0" y="131.0" width="134.5" height="14" fill="#0072B2"/>
+<text x="304.5" y="143.0" class="sub" text-anchor="start" style="font-size:11px">15.4</text>
+<rect x="166.0" y="147.0" width="71.6" height="14" fill="#D55E00"/>
+<text x="241.6" y="159.0" class="sub" text-anchor="start" style="font-size:11px">8.2</text>
+<rect x="166.0" y="163.0" width="85.6" height="14" fill="#009E73"/>
+<text x="255.6" y="175.0" class="sub" text-anchor="start" style="font-size:11px">9.8</text>
+<text x="158.0" y="214.0" class="ink" text-anchor="end">--degree 6</text>
+<rect x="166.0" y="187.0" width="175.5" height="14" fill="#0072B2"/>
+<text x="345.5" y="199.0" class="sub" text-anchor="start" style="font-size:11px">20.1</text>
+<rect x="166.0" y="203.0" width="99.6" height="14" fill="#D55E00"/>
+<text x="269.6" y="215.0" class="sub" text-anchor="start" style="font-size:11px">11.4</text>
+<rect x="166.0" y="219.0" width="95.2" height="14" fill="#009E73"/>
+<text x="265.2" y="231.0" class="sub" text-anchor="start" style="font-size:11px">10.9</text>
+<text x="158.0" y="270.0" class="ink" text-anchor="end">--model spline</text>
+<rect x="166.0" y="243.0" width="231.4" height="14" fill="#0072B2"/>
+<text x="401.4" y="255.0" class="sub" text-anchor="start" style="font-size:11px">26.5</text>
+<rect x="166.0" y="259.0" width="95.2" height="14" fill="#D55E00"/>
+<text x="265.2" y="271.0" class="sub" text-anchor="start" style="font-size:11px">10.9</text>
+<rect x="166.0" y="275.0" width="130.1" height="14" fill="#009E73"/>
+<text x="300.1" y="287.0" class="sub" text-anchor="start" style="font-size:11px">14.9</text>
+<line class="grid" x1="166.0" x2="166.0" y1="68" y2="294"/>
+<text x="166.0" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">0</text>
+<line class="grid" x1="209.7" x2="209.7" y1="68" y2="294"/>
+<text x="209.7" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">5</text>
+<line class="grid" x1="253.3" x2="253.3" y1="68" y2="294"/>
+<text x="253.3" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">10</text>
+<line class="grid" x1="297.0" x2="297.0" y1="68" y2="294"/>
+<text x="297.0" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">15</text>
+<line class="grid" x1="340.7" x2="340.7" y1="68" y2="294"/>
+<text x="340.7" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">20</text>
+<line class="grid" x1="384.3" x2="384.3" y1="68" y2="294"/>
+<text x="384.3" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">25</text>
+<line class="grid" x1="428.0" x2="428.0" y1="68" y2="294"/>
+<text x="428.0" y="310.0" class="sub" text-anchor="middle" style="font-size:11px">30</text>
+<line class="axis" x1="166" x2="166" y1="68" y2="294"/>
+<text x="297.0" y="328.0" class="sub" text-anchor="middle">Gradient removed, ADU</text>
+</svg>

@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-seestar-gpu-120-frames",
+ "page": "tutorials/seestar-faint-field-gpu.md",
+ "kind": "bars",
+ "title": "Wall clock of 120 Seestar frames, processor and card",
+ "caption": "The same 120 frames of M 34 stacked three times on the processor and on the card, from the table above.",
+ "alt": "Grouped bars of seconds for three runs. Processor: 15.5, 15.7, 15.0. Graphics card: 18.8, 19.9, 20.1.",
+ "categories": [
+  "Run 1",
+  "Run 2",
+  "Run 3"
+ ],
+ "series": [
+  {
+   "name": "--backend cpu",
+   "values": [
+    15.5,
+    15.7,
+    15.0
+   ]
+  },
+  {
+   "name": "--backend gpu",
+   "values": [
+    18.8,
+    19.9,
+    20.1
+   ]
+  }
+ ],
+ "value_axis": "Wall clock, seconds (lower is better)",
+ "dp": 1,
+ "note": "tutorials/seestar-faint-field-gpu.md, the table of three runs of each"
+}

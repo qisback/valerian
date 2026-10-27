@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" role="img" aria-labelledby="t d">
+<title id="t">Star FWHM, stack against drizzle</title><desc id="d">Horizontal bars of FWHM in binned pixels. Bin 2: stack 1.606, drizzle pixfrac 0.5 1.575, 0.7 1.635, 1.0 1.75, unbinned answer 1.215. Bin 3: stack 1.365, drizzle 2x 1.289, drizzle 3x pixfrac 0.5 1.246, 3x pixfrac 0.7 1.316.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.ink{fill:#1f2328}.sub{fill:#59636e}
+.grid{stroke:#d8dee4;stroke-width:1}.axis{stroke:#59636e;stroke-width:1}
+.ln{fill:none}
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13px}
+.t{font-size:14px;font-weight:600}
+@media (prefers-color-scheme:dark){.bg{fill:#161b22;stroke:#30363d}.ink{fill:#e6edf3}.sub{fill:#9da7b3}
+.grid{stroke:#30363d}.axis{stroke:#9da7b3}}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="479" height="419" rx="8"/>
+<text x="16.0" y="24.0" class="ink t" text-anchor="start">Star FWHM, stack against drizzle</text>
+<text x="158.0" y="66.0" class="ink" text-anchor="end">Bin 2 stack</text>
+<rect x="166.0" y="53.0" width="210.4" height="18" fill="#0072B2"/>
+<text x="380.4" y="69.0" class="sub" text-anchor="start" style="font-size:11px">1.606</text>
+<text x="158.0" y="90.5" class="ink" text-anchor="end">Bin 2, drizzle 2x,</text>
+<text x="158.0" y="105.5" class="ink" text-anchor="end">pixfrac 0.5</text>
+<rect x="166.0" y="85.0" width="206.3" height="18" fill="#0072B2"/>
+<text x="376.3" y="101.0" class="sub" text-anchor="start" style="font-size:11px">1.575</text>
+<text x="158.0" y="126.5" class="ink" text-anchor="end">Bin 2, drizzle 2x,</text>
+<text x="158.0" y="141.5" class="ink" text-anchor="end">pixfrac 0.7</text>
+<rect x="166.0" y="121.0" width="214.2" height="18" fill="#0072B2"/>
+<text x="384.2" y="137.0" class="sub" text-anchor="start" style="font-size:11px">1.635</text>
+<text x="158.0" y="162.5" class="ink" text-anchor="end">Bin 2, drizzle 2x,</text>
+<text x="158.0" y="177.5" class="ink" text-anchor="end">pixfrac 1.0</text>
+<rect x="166.0" y="157.0" width="229.2" height="18" fill="#0072B2"/>
+<text x="399.2" y="173.0" class="sub" text-anchor="start" style="font-size:11px">1.750</text>
+<text x="158.0" y="198.5" class="ink" text-anchor="end">Bin 2, unbinned</text>
+<text x="158.0" y="213.5" class="ink" text-anchor="end">stack (the answer)</text>
+<rect x="166.0" y="193.0" width="159.2" height="18" fill="#0072B2"/>
+<text x="329.2" y="209.0" class="sub" text-anchor="start" style="font-size:11px">1.215</text>
+<text x="158.0" y="234.5" class="ink" text-anchor="end">Bin 3 stack (49</text>
+<text x="158.0" y="249.5" class="ink" text-anchor="end">frames)</text>
+<rect x="166.0" y="229.0" width="178.8" height="18" fill="#0072B2"/>
+<text x="348.8" y="245.0" class="sub" text-anchor="start" style="font-size:11px">1.365</text>
+<text x="158.0" y="270.5" class="ink" text-anchor="end">Bin 3, drizzle 2x,</text>
+<text x="158.0" y="285.5" class="ink" text-anchor="end">pixfrac 0.5</text>
+<rect x="166.0" y="265.0" width="168.9" height="18" fill="#0072B2"/>
+<text x="338.9" y="281.0" class="sub" text-anchor="start" style="font-size:11px">1.289</text>
+<text x="158.0" y="306.5" class="ink" text-anchor="end">Bin 3, drizzle 3x,</text>
+<text x="158.0" y="321.5" class="ink" text-anchor="end">pixfrac 0.5</text>
+<rect x="166.0" y="301.0" width="163.2" height="18" fill="#0072B2"/>
+<text x="333.2" y="317.0" class="sub" text-anchor="start" style="font-size:11px">1.246</text>
+<text x="158.0" y="342.5" class="ink" text-anchor="end">Bin 3, drizzle 3x,</text>
+<text x="158.0" y="357.5" class="ink" text-anchor="end">pixfrac 0.7</text>
+<rect x="166.0" y="337.0" width="172.4" height="18" fill="#0072B2"/>
+<text x="342.4" y="353.0" class="sub" text-anchor="start" style="font-size:11px">1.316</text>
+<line class="grid" x1="166.0" x2="166.0" y1="46" y2="364"/>
+<text x="166.0" y="380.0" class="sub" text-anchor="middle" style="font-size:11px">0</text>
+<line class="grid" x1="231.5" x2="231.5" y1="46" y2="364"/>
+<text x="231.5" y="380.0" class="sub" text-anchor="middle" style="font-size:11px">0.5</text>
+<line class="grid" x1="297.0" x2="297.0" y1="46" y2="364"/>
+<text x="297.0" y="380.0" class="sub" text-anchor="middle" style="font-size:11px">1</text>
+<line class="grid" x1="362.5" x2="362.5" y1="46" y2="364"/>
+<text x="362.5" y="380.0" class="sub" text-anchor="middle" style="font-size:11px">1.5</text>
+<line class="grid" x1="428.0" x2="428.0" y1="46" y2="364"/>
+<text x="428.0" y="380.0" class="sub" text-anchor="middle" style="font-size:11px">2</text>
+<line class="axis" x1="166" x2="166" y1="46" y2="364"/>
+<text x="297.0" y="398.0" class="sub" text-anchor="middle">Star FWHM, binned pixels (lower is sharper)</text>
+</svg>

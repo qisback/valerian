@@ -1,0 +1,24 @@
+{
+ "id": "user-guide-walkthrough-photocal-gains",
+ "page": "user-guide/walkthrough.md",
+ "kind": "bars",
+ "title": "Gains found by photocal",
+ "caption": "Gains of red and blue against green from the printed output of the photocal step.",
+ "alt": "Bars of gain. Red 0.7547, blue 0.986.",
+ "note": "user-guide/walkthrough.md, step 10",
+ "categories": [
+  "Red against green",
+  "Blue against green"
+ ],
+ "series": [
+  {
+   "name": "Gain",
+   "values": [
+    0.7547,
+    0.986
+   ]
+  }
+ ],
+ "value_axis": "Gain (multiplier)",
+ "dp": 4
+}

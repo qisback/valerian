@@ -1,0 +1,30 @@
+{
+ "id": "user-guide-subframes-sky-level",
+ "page": "user-guide/subframes.md",
+ "kind": "scatter",
+ "title": "Sky level against Background2D",
+ "caption": "Sky level in ADU of four H-alpha frames, Valerian against astropy Background2D, from the table above: the points sit on the line of equality to within 2 ADU.",
+ "alt": "Scatter of Valerian sky level in ADU against reference sky level on equal axes. Frame 3: 448 against 448. Frame 13: 432 against 432.2. Frame 21: 403.44 against 401.3. Frame 23: 400 against 400.2.",
+ "note": "user-guide/subframes.md, 'Checked against astropy and photutils'",
+ "series": [
+  {
+   "name": "Frames 3, 13, 21, 23",
+   "values": [
+    448,
+    432,
+    403.44,
+    400
+   ],
+   "x": [
+    448,
+    432.2,
+    401.3,
+    400.2
+   ]
+  }
+ ],
+ "xlabel": "Reference sky level (Background2D), ADU",
+ "ylabel": "Valerian sky level, ADU",
+ "equal_axes": true,
+ "identity_line": true
+}

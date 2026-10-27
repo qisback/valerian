@@ -1,0 +1,46 @@
+{
+ "id": "tutorials-background-residual-rms",
+ "page": "tutorials/background.md",
+ "kind": "hbars",
+ "title": "Residual rms by background model",
+ "caption": "Residual rms of the fit per colour for four background models, from the table above: the spline fits the samples closest because it has learnt the nebula.",
+ "alt": "Horizontal grouped bars of residual rms in ADU for red, green and blue. Degree 1: 2.5, 0.97, 1.14. Degree 2: 1.66, 0.65, 0.96. Degree 6: 1.23, 0.48, 0.84. Spline: 0.48, 0.22, 0.3.",
+ "categories": [
+  "--degree 1",
+  "--degree 2 (default)",
+  "--degree 6",
+  "--model spline"
+ ],
+ "series": [
+  {
+   "name": "Red",
+   "values": [
+    2.5,
+    1.66,
+    1.23,
+    0.48
+   ]
+  },
+  {
+   "name": "Green",
+   "values": [
+    0.97,
+    0.65,
+    0.48,
+    0.22
+   ]
+  },
+  {
+   "name": "Blue",
+   "values": [
+    1.14,
+    0.96,
+    0.84,
+    0.3
+   ]
+  }
+ ],
+ "value_axis": "Residual rms, ADU (lower is not better here)",
+ "dp": 2,
+ "note": "tutorials/background.md, 'Step 3: Choose the model for your data'"
+}

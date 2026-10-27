@@ -1,0 +1,34 @@
+{
+ "id": "user-guide-walkthrough-photocal-sky",
+ "page": "user-guide/walkthrough.md",
+ "kind": "hbars",
+ "title": "Sky level before and after photocal",
+ "caption": "Sky level of the three planes before and after colour calibration, from the printed output of the photocal step: the planes end level.",
+ "alt": "Horizontal grouped bars of sky level in ADU. Red 610.76 before and 552.68 after, green 597.29 and 552.68, blue 608.32 and 552.68.",
+ "note": "user-guide/walkthrough.md, step 10",
+ "categories": [
+  "Red",
+  "Green",
+  "Blue"
+ ],
+ "series": [
+  {
+   "name": "Before",
+   "values": [
+    610.76,
+    597.29,
+    608.32
+   ]
+  },
+  {
+   "name": "After",
+   "values": [
+    552.68,
+    552.68,
+    552.68
+   ]
+  }
+ ],
+ "value_axis": "Sky level, ADU",
+ "dp": 2
+}

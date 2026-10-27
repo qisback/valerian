@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ttf binary
+
+# Packaging scripts and the files they template run on Linux runners.
+packaging/linux/* text eol=lf
+packaging/macos/* text eol=lf

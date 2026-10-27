@@ -1,0 +1,36 @@
+{
+ "id": "user-guide-optics-fwhm-ic5070",
+ "page": "user-guide/optics.md",
+ "kind": "scatter",
+ "title": "FWHM by zone, IC 5070",
+ "caption": "FWHM in pixels of the Seestar IC 5070 stack, Valerian against astropy fits, from the table above: the zones sit just above the dashed line of equality.",
+ "alt": "Scatter of Valerian FWHM in pixels against reference FWHM on equal axes. Zones: 2.5 against 2.48, 2.41 against 2.41, 2.49 against 2.44, 3.28 against 3.11, 2.43 against 2.42, 2.9 against 2.85, and Moffat 2.46 against 2.33.",
+ "note": "user-guide/optics.md, 'Checked against astropy and numpy', IC 5070 columns",
+ "series": [
+  {
+   "name": "Zones and Moffat",
+   "values": [
+    2.5,
+    2.41,
+    2.49,
+    3.28,
+    2.43,
+    2.9,
+    2.46
+   ],
+   "x": [
+    2.48,
+    2.41,
+    2.44,
+    3.11,
+    2.42,
+    2.85,
+    2.33
+   ]
+  }
+ ],
+ "xlabel": "Reference FWHM (astropy), pixels",
+ "ylabel": "Valerian FWHM, pixels",
+ "equal_axes": true,
+ "identity_line": true
+}

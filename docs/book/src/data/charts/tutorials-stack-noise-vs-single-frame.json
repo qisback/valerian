@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-stack-noise-vs-single-frame",
+ "page": "tutorials/stack.md",
+ "kind": "bars",
+ "title": "One frame against the stack",
+ "caption": "Noise per colour in the sharpest single frame and in the stack of sixty, from the list above: 5.5 to 6.1 times less, against 7.7 for the square root of 60.",
+ "alt": "Grouped bars of noise in ADU. Single frame: red 68.2, green 45.4, blue 59.3. Stack of sixty: red 12.49, green 7.47, blue 10.12.",
+ "categories": [
+  "Red",
+  "Green",
+  "Blue"
+ ],
+ "series": [
+  {
+   "name": "Single frame (number 47)",
+   "values": [
+    68.2,
+    45.4,
+    59.3
+   ]
+  },
+  {
+   "name": "Stack of 60",
+   "values": [
+    12.49,
+    7.47,
+    10.12
+   ]
+  }
+ ],
+ "value_axis": "Noise, ADU (lower is cleaner)",
+ "dp": 2,
+ "note": "tutorials/stack.md, 'Noise per plane' bullet"
+}

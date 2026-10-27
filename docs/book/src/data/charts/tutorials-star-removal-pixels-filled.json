@@ -1,0 +1,34 @@
+{
+ "id": "tutorials-star-removal-pixels-filled",
+ "page": "tutorials/star-removal.md",
+ "kind": "hbars",
+ "title": "Pixels filled by setting",
+ "caption": "Share of the pixels filled on flat.fits for each setting, from the table above.",
+ "alt": "Horizontal bars of pixels filled in per cent. Defaults 5.38, threshold 8 2.48, threshold 2.5 22.35, mask scale 1.5 7.46, grow 4 7.84, max radius 8 3.98, strength 0.5 and others 5.38.",
+ "categories": [
+  "Defaults",
+  "--threshold 8",
+  "--threshold 2.5",
+  "--mask-scale 1.5",
+  "--grow 4",
+  "--max-radius 8",
+  "--strength 0.5, --no-noise, --seed 7"
+ ],
+ "series": [
+  {
+   "name": "Pixels filled",
+   "values": [
+    5.38,
+    2.48,
+    22.35,
+    7.46,
+    7.84,
+    3.98,
+    5.38
+   ]
+  }
+ ],
+ "value_axis": "Pixels filled, per cent of the picture",
+ "dp": 2,
+ "note": "tutorials/star-removal.md, 'Measured on flat.fits'"
+}

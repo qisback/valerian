@@ -1,0 +1,36 @@
+{
+ "id": "tutorials-stack-noise-by-setting",
+ "page": "tutorials/stack.md",
+ "kind": "hbars",
+ "title": "Red noise by stacking choice",
+ "caption": "Noise in plane 0 (red) for each stacking choice on the same sixty frames, from the table above.",
+ "alt": "Horizontal bars of red noise in ADU. Defaults 12.49, equal weights 16.2, no rejection 13.01, sigma 12.43, minmax 12.86, no normalisation 12.87, linear fit 2 and 2 15.05, plain average 16.11.",
+ "categories": [
+  "Defaults",
+  "--weights equal",
+  "--rejection none",
+  "--rejection sigma",
+  "--rejection minmax",
+  "--normalisation none",
+  "linear-fit --low 2 --high 2",
+  "plain average (all three off)"
+ ],
+ "series": [
+  {
+   "name": "Noise, plane 0",
+   "values": [
+    12.49,
+    16.2,
+    13.01,
+    12.43,
+    12.86,
+    12.87,
+    15.05,
+    16.11
+   ]
+  }
+ ],
+ "value_axis": "Noise, plane 0 (red), ADU (lower is cleaner)",
+ "dp": 2,
+ "note": "tutorials/stack.md, 'what each choice does to the noise'"
+}

@@ -1,0 +1,30 @@
+{
+ "id": "user-guide-walkthrough-stack-weights",
+ "page": "user-guide/walkthrough.md",
+ "kind": "bars",
+ "title": "Frame weights in the stack",
+ "caption": "Weights of the five H-alpha frames in the stack, from the printed table of step 3.",
+ "alt": "Bars of frame weight. Frame 0 1.03, frame 1 1.0, frame 2 0.95, frame 3 1.04, frame 4 0.99.",
+ "note": "user-guide/walkthrough.md, '3. Stack'",
+ "categories": [
+  "Frame 0",
+  "Frame 1",
+  "Frame 2",
+  "Frame 3",
+  "Frame 4"
+ ],
+ "series": [
+  {
+   "name": "Weight",
+   "values": [
+    1.03,
+    1.0,
+    0.95,
+    1.04,
+    0.99
+   ]
+  }
+ ],
+ "value_axis": "Weight (relative)",
+ "dp": 2
+}

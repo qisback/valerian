@@ -1,0 +1,41 @@
+[package]
+name = "valerian-gui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Valerian desktop app"
+publish = false
+build = "build.rs"
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "valerian-gui"
+path = "src/main.rs"
+
+[dependencies]
+# default_fonts is off: egui bundles the Ubuntu font, whose licence is not GPL-compatible.
+# IBM Plex Sans and Mono (SIL OFL 1.1) are embedded instead, see assets/fonts.
+eframe = { version = "0.36", default-features = false, features = ["accesskit", "links", "wayland", "wgpu", "x11"] }
+rfd = "0.17.2"
+valerian-core = { version = "0.5.0", path = "../valerian-core" }
+valerian-gpu = { version = "0.5.0", path = "../valerian-gpu" }
+valerian-science = { version = "0.5.0", path = "../valerian-science" }
+png = "0.18.1"
+
+[dev-dependencies]
+tempfile = "3.27.0"
+egui_kittest = { version = "0.36", features = ["wgpu", "snapshot", "eframe"] }
+valerian-core = { version = "0.5.0", path = "../valerian-core", features = ["testutil"] }
+
+# --version from a terminal with the windows subsystem; see src/console.rs.
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61.2", default-features = false, features = ["Win32_Foundation", "Win32_System_Console"] }
+
+# VersionInfo resource in the Windows executables; see build.rs.
+[target.'cfg(windows)'.build-dependencies]
+winresource = { version = "0.1.31", default-features = false }

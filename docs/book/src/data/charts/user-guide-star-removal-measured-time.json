@@ -1,0 +1,24 @@
+{
+ "id": "user-guide-star-removal-measured-time",
+ "page": "user-guide/star-removal.md",
+ "kind": "bars",
+ "title": "Time to remove the stars",
+ "caption": "Time of the star removal on a 24-core machine for two stacks, from the paragraph above.",
+ "alt": "Bars of seconds. H-alpha stack 4.3, Seestar colour stack 0.9.",
+ "note": "user-guide/star-removal.md, 'Measured'",
+ "categories": [
+  "H-alpha, 4656 x 3520",
+  "Seestar, 1080 x 1920"
+ ],
+ "series": [
+  {
+   "name": "Time",
+   "values": [
+    4.3,
+    0.9
+   ]
+  }
+ ],
+ "value_axis": "Time, seconds (lower is better)",
+ "dp": 1
+}

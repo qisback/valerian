@@ -1,0 +1,161 @@
+# SPDX-FileCopyrightText: 2026 Laurence Horrocks-Barlow
+# SPDX-License-Identifier: GPL-3.0-or-later
+# See ADDITIONAL-TERMS.md for terms added under GPLv3 section 7.
+
+# Zensical (zensical.org) builds the documentation site from docs/book/src.
+# Build: `zensical build --clean` (version pinned in docs/requirements.txt).
+# The navigation below replaces the old mdBook SUMMARY.md. Every page under
+# docs/book/src must be in `nav` or in `exclude_docs`: `cargo xtask docs --check` checks it.
+[project]
+site_name = "Valerian"
+site_description = "Valerian is GPU-accelerated deep-sky image processing for Windows, macOS and Linux: calibrate, register, stack, plate solve, remove gradients, colour calibrate, stretch and remove stars."
+site_author = "Laurence Horrocks-Barlow"
+site_url = "https://qisback.github.io/valerian/"
+docs_dir = "docs/book/src"
+site_dir = "site"
+use_directory_urls = true
+repo_url = "https://github.com/qisback/valerian"
+repo_name = "qisback/valerian"
+copyright = "Copyright (C) 2026 Laurence Horrocks-Barlow. Valerian is free software under the GPL-3.0-or-later licence, with the additional terms in ADDITIONAL-TERMS.md."
+extra_css = ["stylesheets/extra.css", "stylesheets/download-widget.css"]
+extra_javascript = ["javascripts/download-widget.js"]
+exclude_docs = """
+"""
+
+nav = [
+  { "Introduction" = "index.md" },
+  { "Why I made Valerian" = "why-i-made-valerian.md" },
+  { "Getting started" = [
+    { "Get Valerian" = "getting-started/download.md" },
+    { "Build from source" = "getting-started/build-from-source.md" },
+    { "Getting started" = "getting-started/install.md" },
+    { "A first session" = "user-guide/walkthrough.md" },
+  ] },
+  { "Tutorials" = [
+    { "Tutorials" = "tutorials/index.md" },
+    { "1. Install" = "tutorials/install.md" },
+    { "2. Calibrate" = "tutorials/calibrate.md" },
+    { "3. Register" = "tutorials/register.md" },
+    { "4. Stack" = "tutorials/stack.md" },
+    { "5. Background extraction" = "tutorials/background.md" },
+    { "6. Stretch" = "tutorials/stretch.md" },
+    { "7. Star removal" = "tutorials/star-removal.md" },
+    { "8. Plate solve" = "tutorials/plate-solve.md" },
+    { "9. Photometric colour" = "tutorials/photometric-colour.md" },
+    { "10. Drizzle" = "tutorials/drizzle.md" },
+    { "11. GPU" = "tutorials/gpu.md" },
+    { "12. Subframe analysis" = "tutorials/subframe-analysis.md" },
+    { "13. Optics" = "tutorials/optics.md" },
+    { "14. Integration diagnostics" = "tutorials/integration.md" },
+    { "15. Astrometry and photometry" = "tutorials/astrometry.md" },
+    { "16. Deconvolution" = "tutorials/deconvolution.md" },
+    { "17. Stack a mosaic" = "tutorials/mosaic.md" },
+    { "18. A Seestar session, install to picture" = "tutorials/seestar-session.md" },
+    { "19. A faint field, and the GPU" = "tutorials/seestar-faint-field-gpu.md" },
+    { "20. Zero point, magnitudes and the limit" = "tutorials/zero-point-and-limit.md" },
+    { "Desktop app: cancelling a running step" = "tutorials/cancel.md" },
+    { "Desktop: sort a folder, pick a session up" = "tutorials/sort-and-sessions.md" },
+    { "Desktop: work from the keyboard" = "tutorials/keyboard.md" },
+    { "Desktop: zoom to the real pixels" = "tutorials/zoom.md" },
+  ] },
+  { "User guide" = [
+    { "Quick start" = "user-guide/quick-start.md" },
+    { "The desktop app" = "user-guide/gui.md" },
+    { "Tutorial: a session in the desktop app" = "user-guide/gui-tutorial.md" },
+    { "How calibration works" = "user-guide/calibration.md" },
+    { "How registration works" = "user-guide/registration.md" },
+    { "How stacking works" = "user-guide/stacking.md" },
+    { "How mosaics work" = "user-guide/mosaic.md" },
+    { "How background extraction works" = "user-guide/background.md" },
+    { "How stretching works" = "user-guide/stretching.md" },
+    { "How star removal works" = "user-guide/star-removal.md" },
+    { "How deconvolution works" = "user-guide/deconvolution.md" },
+    { "How plate solving works" = "user-guide/plate-solving.md" },
+    { "How colour calibration works" = "user-guide/colour-calibration.md" },
+    { "How drizzle works" = "user-guide/drizzle.md" },
+    { "How subframe analysis works" = "user-guide/subframes.md" },
+    { "How the Seestar sub grader works" = "user-guide/grading.md" },
+    { "Privacy: location and serial numbers" = "user-guide/privacy.md" },
+    { "How the optics plots work" = "user-guide/optics.md" },
+    { "How the integration diagnostics work" = "user-guide/integration.md" },
+    { "How the astrometry and photometry outputs work" = "user-guide/astrometry.md" },
+    { "The GPU kernels" = "user-guide/gpu.md" },
+    { "Performance and benchmarks" = "user-guide/benchmarks.md" },
+  ] },
+  { "Reference" = [
+    { "CLI reference" = "reference/cli.md" },
+    { "FITS files and other formats" = "reference/fits-files.md" },
+    { "The star catalogue file" = "reference/catalogue-format.md" },
+    { "Environment variables and exit status" = "reference/environment.md" },
+    { "Troubleshooting by stage" = "reference/troubleshooting.md" },
+    { "Desktop app reference" = "reference/gui.md" },
+    { "Documentation coverage" = "reference/documentation-coverage.md" },
+    { "References" = "reference/references.md" },
+  ] },
+  { "Developer guide" = [
+    { "Architecture" = "developer/architecture.md" },
+    { "The grader model contract" = "developer/grader-model.md" },
+  ] },
+  { "Roadmap" = [
+    { "Milestones" = "roadmap.md" },
+  ] },
+  { "About Valerian" = "about.md" },
+  { "Credits and trademarks" = "credits.md" },
+  { "Releases on GitHub" = "https://github.com/qisback/valerian/releases" },
+]
+
+[project.theme]
+language = "en"
+logo = "images/favicon-header.png"
+favicon = "images/favicon.png"
+features = [
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/qisback/valerian"
+name = "Valerian on GitHub"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.betterem = {}
+pymdownx.details = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.inlinehilite = {}
+pymdownx.snippets.base_path = ["."]
+pymdownx.snippets.check_paths = true
+pymdownx.superfences = {}
+pymdownx.tasklist.custom_checkbox = true
+
+# Old page paths that moved: /introduction/ was the home page before it became index.md.
+[project.plugins.redirects.redirect_maps]
+"introduction.md" = "index.md"

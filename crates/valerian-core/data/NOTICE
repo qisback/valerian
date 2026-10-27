@@ -1,0 +1,28 @@
+Gaia DR3 star file: gaia-dr3-g11.vcat
+=====================================
+
+Star positions, G magnitudes and BP-RP colours from Gaia Data Release 3, down to G = 11.
+Valerian reads this file at run time (valerian solve, valerian photocal). It is data, a
+separate file, and is NOT part of the GPL code of Valerian.
+
+Copyright: ESA/Gaia/DPAC (Gaia Data Processing and Analysis Consortium).
+
+Licence: Creative Commons Attribution-NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO),
+https://creativecommons.org/licenses/by-nc/3.0/igo/
+ESA states the licence at https://www.cosmos.esa.int/web/gaia-users/license
+Non-commercial use only. Commercial use needs prior authorisation from ESA (see
+https://www.cosmos.esa.int/web/esdc/terms-and-conditions).
+
+Acknowledgement: This work has made use of data from the European Space Agency (ESA)
+mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and
+Analysis Consortium (DPAC, https://www.cosmos.esa.int/web/gaia/dpac/consortium). Funding
+for the DPAC has been provided by national institutions, in particular the institutions
+participating in the Gaia Multilateral Agreement.
+
+Citations: Gaia Collaboration, Prusti, T. et al. (2016), "The Gaia mission", Astronomy and
+Astrophysics 595, A1, doi:10.1051/0004-6361/201629272; Gaia Collaboration, Vallenari, A.
+et al. (2023), "Gaia Data Release 3: summary of the content and survey properties",
+Astronomy and Astrophysics 674, A1, doi:10.1051/0004-6361/202243940.
+
+The file was reduced from the Gaia archive with scripts/build_catalogue.py. The full
+notice that ships in the packages is packaging/gaia-notice.txt.

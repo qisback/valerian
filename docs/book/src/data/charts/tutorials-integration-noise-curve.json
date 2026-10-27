@@ -1,0 +1,54 @@
+{
+ "id": "tutorials-integration-noise-curve",
+ "page": "tutorials/integration.md",
+ "kind": "lines",
+ "title": "Noise against frames per half",
+ "caption": "Measured noise of the mean of 1 to 30 frames against the square-root expectation, from the integration/noise.csv listing: the curve drifts above the line past 8 frames.",
+ "alt": "Lines of noise in ADU against frames per half on log axes. Measured: 45.001, 34.877, 24.351, 16.405, 13.139, 9.439. Expectation: 46.522, 32.896, 23.261, 16.448, 11.63, 8.494.",
+ "note": "tutorials/integration.md, 'Step 4', noise.csv",
+ "series": [
+  {
+   "name": "Measured",
+   "values": [
+    45.001,
+    34.877,
+    24.351,
+    16.405,
+    13.139,
+    9.439
+   ],
+   "x": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    30
+   ]
+  },
+  {
+   "name": "Square-root expectation",
+   "values": [
+    46.522,
+    32.896,
+    23.261,
+    16.448,
+    11.63,
+    8.494
+   ],
+   "x": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    30
+   ]
+  }
+ ],
+ "xlabel": "Frames per half",
+ "ylabel": "Noise, ADU",
+ "log": true,
+ "logx": true,
+ "dp": 3
+}

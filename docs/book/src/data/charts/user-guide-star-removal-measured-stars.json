@@ -1,0 +1,24 @@
+{
+ "id": "user-guide-star-removal-measured-stars",
+ "page": "user-guide/star-removal.md",
+ "kind": "bars",
+ "title": "Stars found",
+ "caption": "Stars found by the star removal in two stacks, from the paragraph above.",
+ "alt": "Bars of stars found. H-alpha stack 3279, Seestar colour stack 668.",
+ "note": "user-guide/star-removal.md, 'Measured'",
+ "categories": [
+  "H-alpha, 4656 x 3520",
+  "Seestar, 1080 x 1920"
+ ],
+ "series": [
+  {
+   "name": "Stars found",
+   "values": [
+    3279,
+    668
+   ]
+  }
+ ],
+ "value_axis": "Stars found (count)",
+ "dp": 0
+}

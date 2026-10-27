@@ -1,0 +1,30 @@
+[package]
+name = "valerian-science"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Valerian science outputs: subframe analysis, plots, CSV/JSON export and HTML reports"
+publish = false
+
+[lints]
+workspace = true
+
+[lib]
+bench = false
+
+[dependencies]
+valerian-core = { version = "0.5.0", path = "../valerian-core" }
+png = "0.18.1"
+plotters = { version = "0.3.7", default-features = false, features = ["bitmap_backend", "ab_glyph", "line_series", "point_series", "area_series"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+rayon = "1.12.0"
+thiserror = "2.0.21"
+tract-onnx = "0.23.9"
+
+[dev-dependencies]
+tempfile = "3.27.0"
+valerian-core = { version = "0.5.0", path = "../valerian-core", features = ["testutil"] }

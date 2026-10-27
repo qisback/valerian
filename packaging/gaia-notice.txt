@@ -1,0 +1,38 @@
+================================================================================
+Gaia DR3 star positions, shipped as gaia-dr3-g11.vcat (CC BY-NC 3.0 IGO)
+================================================================================
+
+gaia-dr3-g11.vcat holds star positions, G magnitudes and BP-RP colours from Gaia
+Data Release 3, down to G = 11. Valerian reads it at run time to solve the position
+of an image (valerian solve) and to calibrate colour (valerian photocal); it is
+data, not part of the program's code.
+
+Acknowledgement (ESA's wording for Gaia DR3): This work has made use of data from
+the European Space Agency (ESA) mission Gaia (https://www.cosmos.esa.int/gaia),
+processed by the Gaia Data Processing and Analysis Consortium (DPAC,
+https://www.cosmos.esa.int/web/gaia/dpac/consortium). Funding for the DPAC has
+been provided by national institutions, in particular the institutions
+participating in the Gaia Multilateral Agreement.
+
+Citations: Gaia Collaboration, Prusti, T. et al. (2016), "The Gaia mission",
+Astronomy and Astrophysics 595, A1, doi:10.1051/0004-6361/201629272; Gaia
+Collaboration, Vallenari, A. et al. (2023), "Gaia Data Release 3: summary of the
+content and survey properties", Astronomy and Astrophysics 674, A1,
+doi:10.1051/0004-6361/202243940.
+
+Copyright: ESA/Gaia/DPAC (Gaia Data Processing and Analysis Consortium)
+Licence: ESA states "Gaia data are distributed under the CC BY-NC 3.0 IGO license"
+(https://www.cosmos.esa.int/web/gaia-users/license, checked 2026-10-21): Creative
+Commons Attribution-NonCommercial 3.0 IGO, https://creativecommons.org/licenses/by-nc/3.0/igo/
+Under the ESA Terms and Conditions for the use of data in the ESA space science
+archives (https://www.cosmos.esa.int/web/esdc/terms-and-conditions), any commercial
+use of the data, "including any use or application that directly or indirectly
+generates a financial gain", needs prior authorisation from ESA
+(data.licences@esa.int). The file may be used and shared for non-commercial
+purposes with this attribution. It is NOT covered by the GPL that covers Valerian's
+code, and it must not be sold or used commercially without ESA's permission.
+The file was reduced from the Gaia archive (positions, G magnitudes and BP-RP
+colours only) with scripts/build_catalogue.py in the Valerian source. Earlier
+Valerian releases labelled the file CC BY-SA 3.0 IGO; that label did not match ESA's published licence. The full
+licence text follows.
+

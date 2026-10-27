@@ -1,0 +1,31 @@
+{
+ "id": "user-guide-astrometry-photocal-agreement",
+ "page": "user-guide/astrometry.md",
+ "kind": "hbars",
+ "title": "Colour fit against photutils",
+ "caption": "Difference between Valerian's instrumental colours and photutils' for 36 Gaia stars, rms and largest, from the table above: all below 0.01 mag.",
+ "alt": "Horizontal grouped bars of colour differences in magnitudes. Red against green: rms 0.0005, largest 0.0027. Blue against green: rms 0.0016, largest 0.0072.",
+ "categories": [
+  "Red against green",
+  "Blue against green"
+ ],
+ "series": [
+  {
+   "name": "rms",
+   "values": [
+    0.0005,
+    0.0016
+   ]
+  },
+  {
+   "name": "Largest",
+   "values": [
+    0.0027,
+    0.0072
+   ]
+  }
+ ],
+ "value_axis": "Difference in colour, magnitudes (lower is closer)",
+ "dp": 4,
+ "note": "user-guide/astrometry.md, 'Checked against astropy, photutils and numpy', colour fit row"
+}
